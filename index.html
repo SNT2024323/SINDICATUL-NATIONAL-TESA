@@ -1,0 +1,959 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="assets/fonturi.css">
+<title>Sindicatul National TESA – sindicatul personalului TESA din spitale</title>
+<meta name="description" content="Sindicatul National TESA reprezinta personalul tehnic, economic si administrativ din spitalele publice: salarizare corecta pe Anexa VII, indrumare legala si o voce la nivel national.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Sindicatul National TESA – protectia ta la locul de munca">
+<meta property="og:description" content="Sindicatul National TESA reprezinta personalul tehnic, economic si administrativ din spitalele publice: salarizare corecta pe Anexa VII, indrumare legala si o voce la nivel national.">
+<!-- Dupa publicare, inlocuiti ADRESA-SITE cu adresa reala (ex. https://nume.github.io/sindicatul-national-tesa) -->
+<meta property="og:image" content="ADRESA-SITE/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+body{margin:0;background:#FFF9EF}
+a{color:#255ECF}a:hover{color:#094F8E}
+.lift{transition:transform .25s ease, box-shadow .25s ease}
+.lift:hover{transform:translateY(-5px);box-shadow:0 16px 34px rgba(3,3,125,.16)}
+.zoom{overflow:hidden}
+.zoom img{transition:transform .6s ease}
+.zoom:hover img{transform:scale(1.06)}
+.btn{transition:transform .2s ease, box-shadow .2s ease}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(3,3,125,.22)}
+@keyframes rise{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+.rise1{animation:rise .8s ease both}
+.rise2{animation:rise .8s .15s ease both}
+.rise3{animation:rise .8s .3s ease both}
+.rise4{animation:rise .9s .45s ease both}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.bob{animation:bob 2.8s ease-in-out infinite}
+@media (max-width: 640px){
+[style*="font-size: 56px"]{font-size:36px !important}
+[style*="font-size: 48px"]{font-size:32px !important}
+[style*="font-size: 44px"]{font-size:32px !important}
+[style*="font-size: 40px"]{font-size:30px !important}
+[style*="font-size: 30px"]{font-size:24px !important}
+blockquote[style*="font-size: 28px"]{font-size:20px !important}
+nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !important}
+}
+@media (prefers-reduced-motion: reduce){.rise1,.rise2,.rise3,.rise4,.bob{animation:none}.lift,.zoom img,.btn{transition:none}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<template id="tpl">
+<div style="font-family: 'Work Sans', system-ui, sans-serif; color: #1C2B3A; background: #FFF9EF; line-height: 1.55; font-size: 17px">
+
+<div aria-hidden="true" style="height: 6px; display: flex"><div style="flex: 1 1 0; background: #255ECF"></div><div style="flex: 1 1 0; background: #FFCD2E"></div><div style="flex: 1 1 0; background: #C8102E"></div></div>
+<header style="background: #FFF9EF; border-bottom: 1px solid #EFE2CC">
+<div style="max-width: 1180px; margin: 0 auto; padding: 18px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<div style="display: flex; align-items: center; gap: 12px">
+<img src="assets/sigla-snt.png" alt="Sigla Sindicatului National TESA" style="width: 64px; height: auto; display: block">
+<div style="font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 20px; line-height: 1.2; color: #03037D">Sindicatul National TESA</div>
+</div>
+<nav aria-label="Navigare principala" style="display: flex; flex-wrap: wrap; gap: 22px; font-size: 15px; font-weight: 500">
+<a href="#despre" style="color: #1C2B3A; text-decoration: none">Despre noi</a>
+<a href="#activitate" style="color: #1C2B3A; text-decoration: none">Ce facem</a>
+<a href="#verifica" style="color: #1C2B3A; text-decoration: none">Test rapid</a>
+<a href="#membru" style="color: #1C2B3A; text-decoration: none">Devino membru</a>
+<a href="#intrebari" style="color: #1C2B3A; text-decoration: none">Intrebari</a>
+<a href="#documente" style="color: #1C2B3A; text-decoration: none">Documente</a>
+<a href="#contactat" style="color: #1C2B3A; text-decoration: none">Te sunam noi</a>
+<a href="#contact" style="color: #1C2B3A; text-decoration: none">Contact</a>
+</nav>
+</div>
+</header>
+
+<section style="background: #255ECF; position: relative; overflow: hidden">
+<div aria-hidden="true" style="position: absolute; right: -120px; top: -140px; width: 560px; height: 560px; opacity: 0.08; pointer-events: none">
+<div style="position: absolute; left: 190px; top: 0; width: 180px; height: 560px; background: #FFFFFF"></div>
+<div style="position: absolute; left: 0; top: 190px; width: 560px; height: 180px; background: #FFFFFF"></div>
+</div>
+<div style="position: relative; max-width: 1180px; margin: 0 auto; padding: 80px 24px 96px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 999 1 520px; min-width: 0">
+<div class="rise1" style="display: inline-block; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #03037D; background: #FFCD2E; border-radius: 999px; padding: 6px 14px; font-weight: 600; margin-bottom: 22px">Sindicatul National TESA · personal din sanatate</div>
+<h1 class="rise2" style="font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 56px; line-height: 1.06; margin: 0 0 24px; color: #FFFFFF">Am obtinut incadrarea pe <span style="color: #FFCD2E">Anexa VII</span> in aproape toate spitalele unde avem membri.</h1>
+<p class="rise3" style="font-size: 20px; margin: 0 0 36px; color: #EEF2FD; max-width: 640px">Suntem vocea personalului TESA si auxiliar din spitale: negociem cu ministerele, te indrumam cand ti se refuza un drept si nu te lasam singur. Ti s-a refuzat incadrarea corecta? Scrie-ne.</p>
+<div class="rise4" style="display: flex; flex-wrap: wrap; gap: 14px">
+<a class="btn" href="#membru" style="background: #FFCD2E; color: #03037D; text-decoration: none; padding: 16px 30px; border-radius: 999px; font-weight: 700; font-size: 18px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Devino membru</a>
+<a class="btn" href="#rezultate" onClick="{{openMap}}" style="background: #FFFFFF; color: #03037D; text-decoration: none; padding: 16px 30px; border-radius: 999px; font-weight: 600; font-size: 18px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Vezi ce am obtinut</a>
+</div>
+</div>
+<div class="rise3" style="flex: 1 1 380px; min-width: 0; position: relative; padding: 0 0 56px 0">
+<div style="position: relative; border-radius: 20px; box-shadow: 14px 14px 0 #FFCD2E">
+<img src="assets/foto/strada.jpg" alt="Reprezentant al sindicatului facand declaratii presei, in vesta albastra cu insemnele TESA" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 20px">
+</div>
+<div style="position: absolute; left: -18px; bottom: 0; width: 46%; border: 6px solid #FFFFFF; border-radius: 16px; overflow: hidden; box-shadow: 0 12px 28px rgba(3,3,125,.3)">
+<img src="assets/foto/conferinta.jpg" alt="Conferinta nationala Uniunea TESA" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover">
+</div>
+<div style="position: absolute; right: 12px; bottom: 16px; background: #03037D; color: #FFFFFF; border-radius: 14px; padding: 12px 18px; font-size: 14px; line-height: 1.3; box-shadow: 0 10px 24px rgba(0,0,0,.25)"><span style="display: block; font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; font-weight: 700; color: #FFCD2E">In strada</span>cand a fost nevoie</div>
+</div>
+</div>
+</section>
+
+<section aria-label="Pe scurt" style="background: #FFCD2E">
+<div style="max-width: 1180px; margin: 0 auto; padding: 28px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px 32px">
+<div style="display: flex; align-items: baseline; gap: 12px"><span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 48px; font-weight: 700; color: #03037D; line-height: 1; font-variant-numeric: tabular-nums">{{n1}}</span><span style="color: #03037D; font-weight: 500">membri in unitati sanitare</span></div>
+<div style="display: flex; align-items: baseline; gap: 12px"><span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 48px; font-weight: 700; color: #03037D; line-height: 1; font-variant-numeric: tabular-nums">{{n2}}</span><span style="color: #03037D; font-weight: 500">unitati sanitare din 6 judete</span></div>
+<div style="display: flex; align-items: baseline; gap: 12px"><span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 48px; font-weight: 700; color: #03037D; line-height: 1">2024</span><span style="color: #03037D; font-weight: 500">anul infiintarii</span></div>
+</div>
+</section>
+
+<section id="despre" style="max-width: 1180px; margin: 0 auto; padding: 96px 24px 72px; display: flex; flex-wrap: wrap; gap: 48px">
+<div style="flex: 1 1 320px; min-width: 0">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #C8102E; font-weight: 600; margin-bottom: 12px">Despre noi</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 28px; color: #03037D">Cine suntem</h2>
+<figure class="zoom" style="margin: 0; border-radius: 16px; box-shadow: 10px 10px 0 #FFCD2E"><img src="assets/foto/infiintare.jpg" alt="Membrii fondatori la intalnirea de infiintare a Sindicatului National TESA, in jurul mesei, cu steagurile TESA" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 16px"></figure>
+<p style="margin: 18px 0 0; font-size: 14px; color: #4B5B6B">Intalnirea de infiintare a Sindicatului National TESA, 2024</p>
+</div>
+<div style="flex: 999 1 560px; min-width: 0; font-size: 18px">
+<p style="margin: 0 0 18px">Sindicatul National TESA reprezinta economistii, juristii, informaticienii, personalul administrativ si auxiliar din unitatile sanitare publice: colegii fara de care un spital nu poate functiona, dar care sunt prea des uitati in legile de salarizare.</p>
+<p style="margin: 0 0 18px">Suntem afiliati la Uniunea Nationala a Sindicatelor TESA din Sanatate, singura federatie dedicata in totalitate personalului TESA din sanatate, si, prin intermediul ei, la Confederatia MERIDIAN. Prin federatie si confederatie, participam la dialogul social la nivel national.</p>
+<p style="margin: 0; color: #4B5B6B">Infiintat in 2024 · Presedinte: Chifor Valentin Liviu · Secretar general: Oana Toader · Sediul: Bucuresti, sector 6</p>
+</div>
+</section>
+
+<section aria-label="Mesajul nostru" style="background: #03037D; color: #FFFFFF; position: relative; overflow: hidden">
+<div aria-hidden="true" style="position: absolute; left: 0; top: 0; bottom: 0; width: 10px; display: flex; flex-direction: column"><div style="flex: 1 1 0; background: #255ECF"></div><div style="flex: 1 1 0; background: #FFCD2E"></div><div style="flex: 1 1 0; background: #C8102E"></div></div>
+<div style="max-width: 1180px; margin: 0 auto; padding: 88px 24px 88px 48px">
+<div style="font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #FFCD2E; font-weight: 600; margin-bottom: 20px">Campania nationala „Munca nevazuta”</div>
+<p style="font-family: 'Source Serif 4', Georgia, serif; font-size: 48px; line-height: 1.15; font-weight: 700; margin: 0; max-width: 980px">O campanie despre oamenii <span style="color: #FFCD2E">fara de care spitalul nu functioneaza.</span></p>
+<p style="margin: 24px 0 0; font-size: 19px; color: #C9CDF2; max-width: 720px">Economisti, juristi, informaticieni, administratie, personal de suport. Munca noastra nu se vede in saloane, dar fara ea niciun pacient nu poate fi internat, tratat sau externat.</p>
+</div>
+</section>
+
+<section id="unitati" style="max-width: 1180px; margin: 0 auto; padding: 88px 24px">
+<div style="display: flex; flex-wrap: wrap; gap: 24px 48px; align-items: flex-end; justify-content: space-between; margin-bottom: 28px">
+<div style="flex: 999 1 480px; min-width: 0">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #C8102E; font-weight: 600; margin-bottom: 12px">Unde suntem</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 12px; color: #03037D">14 unitati sanitare, 6 judete</h2>
+<p style="margin: 0; font-size: 18px; color: #33475B">Cauta-ti spitalul. Daca avem deja colegi acolo, nu esti singur.</p>
+</div>
+<div style="flex: 1 1 300px; min-width: 0">
+<label for="cauta-spital" style="display: block; font-weight: 600; color: #03037D; margin-bottom: 6px">Cauta spitalul tau</label>
+<input id="cauta-spital" type="search" placeholder="ex. Campina, Filantropia, Sibiu" value="{{uQuery}}" onChange="{{onUQuery}}" style="font: inherit; width: 100%; box-sizing: border-box; padding: 12px 14px; border: 2px solid #A9C1EF; border-radius: 10px; color: #1C2B3A; background: #FFFFFF">
+</div>
+</div>
+<div role="group" aria-label="Filtreaza dupa judet" style="display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px">
+<sc-for list="{{uChips}}" as="c" hint-placeholder-count="7"><button type="button" onClick="{{c.pick}}" aria-pressed="{{c.pressed}}" style="font: inherit; font-weight: 600; font-size: 15px; cursor: pointer; min-height: 44px; padding: 8px 16px; border-radius: 999px; border: 2px solid #255ECF; background: {{c.bg}}; color: {{c.fg}}">{{c.label}}</button></sc-for>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px">
+<sc-for list="{{uList}}" as="u" hint-placeholder-count="14">
+<div class="lift" style="background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 14px; padding: 18px 20px; display: flex; gap: 14px; align-items: flex-start">
+<span aria-hidden="true" style="flex: 0 0 auto; width: 36px; height: 36px; border-radius: 50%; background: #FFF4CC; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="#255ECF"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"></path></svg></span>
+<span><span style="display: block; font-weight: 600; color: #03037D; line-height: 1.3">{{u.n}}</span><span style="font-size: 14px; color: #6B6455">{{u.loc}}</span></span>
+</div>
+</sc-for>
+</div>
+<sc-if value="{{uEmpty}}" hint-placeholder-val="{{false}}">
+<div class="rise1" style="background: #03037D; color: #FFFFFF; border-radius: 16px; padding: 28px; margin-top: 8px">
+<p style="margin: 0 0 8px; font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; font-weight: 700; color: #FFCD2E">Spitalul tau nu e inca pe lista?</p>
+<p style="margin: 0 0 18px; color: #DDE1F7">Poti fi primul membru de acolo. Scrie-ne si iti spunem cum putem lucra impreuna.</p>
+<a class="btn" href="https://wa.me/40728294825?text=Buna%20ziua!%20Lucrez%20intr-un%20spital%20unde%20sindicatul%20nu%20are%20inca%20membri%20si%20as%20dori%20detalii." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 44px; background: #FFCD2E; color: #03037D; text-decoration: none; font-weight: 700; padding: 12px 24px; border-radius: 999px">Scrie-ne pe WhatsApp</a>
+</div>
+</sc-if>
+<sc-if value="{{uNotEmpty}}" hint-placeholder-val="{{true}}">
+<p style="margin: 20px 0 0; color: #33475B">Lucrezi in alt spital? <a href="https://wa.me/40728294825?text=Buna%20ziua!%20Lucrez%20intr-un%20spital%20unde%20sindicatul%20nu%20are%20inca%20membri%20si%20as%20dori%20detalii." target="_blank" rel="noopener" style="font-weight: 600">Poti fi primul membru de acolo.</a></p>
+</sc-if>
+</section>
+
+<section id="activitate" style="background: #FFEFD6">
+<div style="max-width: 1180px; margin: 0 auto; padding: 88px 24px">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #C8102E; font-weight: 600; margin-bottom: 12px">Activitate</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 44px; color: #03037D">Ce facem pentru membri</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px">
+<div class="lift" style="background: #FFFFFF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="width: 52px; height: 52px; border-radius: 50%; background: #FFF4CC; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#03037D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"></path></svg></div>
+<h3 style="font-size: 20px; margin: 0; color: #03037D">Salarizare corecta</h3>
+<p style="margin: 0; color: #4B5B6B">Analize, simulari si propuneri pentru legea salarizarii, sustinute in negocierile cu ministerele.</p>
+</div>
+<div class="lift" style="background: #FFFFFF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="width: 52px; height: 52px; border-radius: 50%; background: #FFF4CC; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#03037D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"></path></svg></div>
+<h3 style="font-size: 20px; margin: 0; color: #03037D">Apararea drepturilor</h3>
+<p style="margin: 0; color: #4B5B6B">Consultanta si sprijin in conflicte de munca, sanctiuni disciplinare sau modificari ale contractului.</p>
+</div>
+<div class="lift" style="background: #FFFFFF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="width: 52px; height: 52px; border-radius: 50%; background: #FFF4CC; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#03037D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10v4h4l6 5V5L7 10z"></path><path d="M16 9a4 4 0 0 1 0 6M19 6a8 8 0 0 1 0 12"></path></svg></div>
+<h3 style="font-size: 20px; margin: 0; color: #03037D">Voce la nivel national</h3>
+<p style="margin: 0; color: #4B5B6B">Problemele din spitalul tau ajung direct la ministere si la partide, prin Uniunea TESA si Confederatia MERIDIAN.</p>
+</div>
+<div class="lift" style="background: #FFFFFF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="width: 52px; height: 52px; border-radius: 50%; background: #FFF4CC; display: flex; align-items: center; justify-content: center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#03037D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="9" r="3"></circle><circle cx="16" cy="9" r="3"></circle><path d="M2 20c0-3 3-5 6-5s6 2 6 5M14 15c3 0 8 1 8 5"></path></svg></div>
+<h3 style="font-size: 20px; margin: 0; color: #03037D">Dialog social</h3>
+<p style="margin: 0; color: #4B5B6B">Participam la dialogul social national si european si invatam din practica altor tari, inclusiv prin proiecte cu finantare europeana.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="protectie" style="max-width: 1180px; margin: 0 auto; padding: 88px 24px 0">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #C8102E; font-weight: 600; margin-bottom: 12px">Singur sau impreuna?</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 12px; color: #03037D">Sindicatul este protectia ta la locul de munca</h2>
+<p style="margin: 0 0 36px; font-size: 18px; color: #33475B; max-width: 760px">Un angajat singur negociaza greu. O comunitate organizata are acces la informatie, la sprijin juridic si la masa negocierilor.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px">
+<div style="background: #F1ECE4; border-radius: 20px; padding: 32px">
+<h3 style="font-size: 22px; margin: 0 0 20px; color: #4B5B6B">Singur</h3>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 16px; color: #33475B">
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A96A6" stroke-width="2.2" stroke-linecap="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px"><path d="M6 6l12 12M18 6L6 18"></path></svg><span>Afli tarziu ce se schimba in legea salarizarii si ce inseamna pentru tine.</span></li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A96A6" stroke-width="2.2" stroke-linecap="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px"><path d="M6 6l12 12M18 6L6 18"></path></svg><span>Cand ti se refuza un drept, cauti singur temeiul legal si pasii de urmat.</span></li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A96A6" stroke-width="2.2" stroke-linecap="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px"><path d="M6 6l12 12M18 6L6 18"></path></svg><span>Intr-un conflict de munca sau la o sanctiune, esti singur in fata conducerii.</span></li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A96A6" stroke-width="2.2" stroke-linecap="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px"><path d="M6 6l12 12M18 6L6 18"></path></svg><span>Vocea ta se aude doar in biroul tau.</span></li>
+</ul>
+</div>
+<div class="lift" style="background: #255ECF; color: #FFFFFF; border-radius: 20px; padding: 32px; box-shadow: 10px 10px 0 #FFCD2E">
+<h3 style="font-size: 22px; margin: 0 0 20px; display: flex; align-items: center; gap: 10px"><svg width="26" height="26" viewBox="0 0 24 24" fill="#FFCD2E" stroke="#03037D" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.5l8.5 3.2v6.1c0 5.3-3.6 8.7-8.5 9.9-4.9-1.2-8.5-4.6-8.5-9.9V5.7z"></path></svg>Cu Sindicatul National TESA</h3>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 16px">
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFCD2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Te tinem la curent cu schimbarile legislative si iti explicam ce inseamna pentru tine.</span></li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFCD2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Primesti indrumare legala: ce sa ceri, pe ce temei si cui sa te adresezi.</span></li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFCD2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Ai alaturi colegi si sprijin in conflictele de munca si la sanctiuni.</span></li>
+<li style="display: flex; gap: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFCD2E" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 2px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Vocea ta ajunge la ministere si la partide, prin Uniunea TESA si Confederatia MERIDIAN.</span></li>
+</ul>
+<a class="btn" href="#membru" style="margin-top: 28px; display: inline-flex; align-items: center; min-height: 48px; box-sizing: border-box; background: #FFCD2E; color: #03037D; text-decoration: none; font-weight: 700; padding: 12px 24px; border-radius: 999px">Vreau sa fiu protejat</a>
+</div>
+</div>
+</section>
+
+<section id="rezultate" style="max-width: 1180px; margin: 0 auto; padding: 88px 24px">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #C8102E; font-weight: 600; margin-bottom: 12px">Rezultate</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 20px; color: #03037D">Povestea noastra: ce am obtinut impreuna</h2>
+<p style="margin: 0 0 40px; font-size: 18px; max-width: 760px; color: #33475B">Personalul TESA a fost mult timp „munca nevazuta” a spitalelor. Am pornit de la un lucru simplu: nimeni nu tine un spital in functiune singur. De aici a inceput drumul nostru, din spital in spital si pana la masa negocierilor cu ministerele.</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-bottom: 48px">
+<div class="lift" style="background: #255ECF; color: #FFFFFF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; color: #FFE38A">In spitale</div>
+<h3 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; line-height: 1.2; margin: 0">Incadrare corecta pe Anexa VII</h3>
+<p style="margin: 0; color: #EEF2FD; flex-grow: 1">Personalul TESA din spitalele publice trebuie salarizat potrivit Anexei VII, asa cum a confirmat si Inalta Curte (Decizia nr. 61/2022). Am obtinut acest lucru in aproape toate spitalele unde avem membri.</p>
+<a href="#harta" onClick="{{openAnexa}}" style="align-self: flex-start; background: #FFFFFF; color: #03037D; text-decoration: none; font-weight: 600; padding: 12px 22px; border-radius: 999px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Citeste povestea</a>
+</div>
+<div class="lift" style="background: #03037D; color: #FFFFFF; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; color: #FFE38A">Cea mai importanta realizare</div>
+<h3 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; line-height: 1.2; margin: 0">Locul TESA, scris in noua lege</h3>
+<p style="margin: 0; color: #DDE1F7; flex-grow: 1">Am negociat cu ministerele si cu partidele ca personalul TESA din spitale sa aiba locul stabilit clar in proiectul noii legi a salarizarii, chiar in capitolul dedicat sanatatii.</p>
+<a href="#harta" onClick="{{openLege}}" style="align-self: flex-start; background: #FFCD2E; color: #03037D; text-decoration: none; font-weight: 600; padding: 12px 22px; border-radius: 999px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Citeste povestea</a>
+</div>
+<div class="lift" style="background: #FFCD2E; color: #03037D; border-radius: 16px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; color: #03037D">Campanie nationala, 2026</div>
+<h3 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; line-height: 1.2; margin: 0">Munca nevazuta</h3>
+<p style="margin: 0; flex-grow: 1">Doua luni in care am aratat tarii oamenii fara de care spitalul nu functioneaza: economisti, juristi, informaticieni, administratie si personal de suport.</p>
+<a href="#harta" onClick="{{openMunca}}" style="align-self: flex-start; background: #03037D; color: #FFFFFF; text-decoration: none; font-weight: 600; padding: 12px 22px; border-radius: 999px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Citeste povestea</a>
+</div>
+</div>
+
+<div id="harta">
+<sc-if value="{{closed}}" hint-placeholder-val="{{false}}">
+<div style="background: #FFEFD6; border-left: 0; border-radius: 20px; padding: 36px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between">
+<p style="margin: 0; font-size: 18px; color: #03037D; flex: 999 1 400px; min-width: 0">Sapte repere care spun cine suntem, de la anexa VII in spitale pana la negocierile pentru noua lege a salarizarii.</p>
+<button type="button" onClick="{{openMap}}" style="font: inherit; font-weight: 600; cursor: pointer; background: #FFCD2E; color: #03037D; border: none; border-radius: 999px; padding: 15px 28px; min-height: 44px">Deschide harta</button>
+</div>
+</sc-if>
+
+<sc-if value="{{open}}" hint-placeholder-val="{{true}}">
+<div style="display: flex; flex-direction: column">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px">
+<sc-for list="{{topNodes}}" as="n" hint-placeholder-count="4">
+<div style="display: flex; flex-direction: column">
+<button type="button" onClick="{{n.pick}}" aria-pressed="{{n.pressed}}" style="text-align: left; font: inherit; cursor: pointer; background: {{n.bg}}; color: {{n.fg}}; border: 2px solid {{n.border}}; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px; min-height: 160px; flex-grow: 1">
+<span style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; color: {{n.tagColor}}">{{n.tag}}</span>
+<span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; font-weight: 700; line-height: 1.2">{{n.title}}</span>
+<span style="font-size: 15px; color: {{n.subColor}}">{{n.short}}</span>
+</button>
+<div aria-hidden="true" style="width: 3px; height: 32px; background: #255ECF; align-self: center"></div>
+</div>
+</sc-for>
+</div>
+
+<div style="display: flex; align-items: center">
+<div aria-hidden="true" style="flex: 1 1 0; height: 3px; background: #255ECF"></div>
+<div style="flex: 0 1 auto; background: #03037D; color: #FFFFFF; border: 3px solid #FFCD2E; border-radius: 999px; padding: 16px 32px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 21px; text-align: center">Sindicatul National TESA</div>
+<div aria-hidden="true" style="flex: 1 1 0; height: 3px; background: #255ECF"></div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px">
+<sc-for list="{{bottomNodes}}" as="n" hint-placeholder-count="3">
+<div style="display: flex; flex-direction: column">
+<div aria-hidden="true" style="width: 3px; height: 32px; background: #255ECF; align-self: center"></div>
+<button type="button" onClick="{{n.pick}}" aria-pressed="{{n.pressed}}" style="text-align: left; font: inherit; cursor: pointer; background: {{n.bg}}; color: {{n.fg}}; border: 2px solid {{n.border}}; border-radius: 16px; padding: 22px; display: flex; flex-direction: column; gap: 8px; min-height: 160px; flex-grow: 1">
+<span style="font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; color: {{n.tagColor}}">{{n.tag}}</span>
+<span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; font-weight: 700; line-height: 1.2">{{n.title}}</span>
+<span style="font-size: 15px; color: {{n.subColor}}">{{n.short}}</span>
+</button>
+</div>
+</sc-for>
+</div>
+
+<div aria-live="polite" style="margin-top: 40px; background: #FFFFFF; border: 1px solid #EFE2CC; border-top: 6px solid #FFCD2E; border-radius: 20px; padding: 36px; display: flex; flex-wrap: wrap; gap: 32px">
+<div style="flex: 1 1 240px; min-width: 0">
+<div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; color: #C8102E; margin-bottom: 10px">{{current.tag}}</div>
+<h3 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 30px; line-height: 1.2; margin: 0; color: #03037D">{{current.title}}</h3>
+</div>
+<div style="flex: 999 1 480px; min-width: 0; font-size: 18px">
+<sc-for list="{{current.paras}}" as="p" hint-placeholder-count="2">
+<p style="margin: 0 0 16px">{{p.text}}</p>
+</sc-for>
+<sc-if value="{{current.isMunca}}" hint-placeholder-val="{{false}}">
+<figure style="margin: 8px 0 20px"><img src="assets/foto/munca-nevazuta.jpg" alt="Ecranul de prezentare al campaniei nationale Munca nevazuta, 12 mai - 9 iulie 2026" style="display: block; width: 100%; height: auto; border-radius: 12px"><figcaption style="font-size: 14px; color: #4B5B6B; margin-top: 8px">Prezentarea rezultatelor campaniei „Munca nevazuta”</figcaption></figure>
+</sc-if>
+<sc-if value="{{current.isStrada}}" hint-placeholder-val="{{false}}">
+<figure style="margin: 8px 0 20px"><img src="assets/foto/strada.jpg" alt="Reprezentant al Uniunii TESA facand declaratii presei, in vesta albastra cu insemnele sindicatului" style="display: block; width: 100%; height: auto; border-radius: 12px"><figcaption style="font-size: 14px; color: #4B5B6B; margin-top: 8px">Declaratii de presa in timpul unui protest</figcaption></figure>
+</sc-if>
+<sc-if value="{{current.isMeridian}}" hint-placeholder-val="{{false}}">
+<figure style="margin: 8px 0 20px"><img src="assets/foto/conferinta.jpg" alt="Conferinta nationala Uniunea TESA, cu mesajul Pretuieste-ti munca" style="display: block; width: 100%; height: auto; border-radius: 12px"><figcaption style="font-size: 14px; color: #4B5B6B; margin-top: 8px">Uniunea TESA, comunitatea nationala: „Pretuieste-ti munca”</figcaption></figure>
+</sc-if>
+<sc-if value="{{current.isEvenimente}}" hint-placeholder-val="{{false}}">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 8px 0 20px">
+<figure style="margin: 0"><img src="assets/foto/comisia-europeana-grup.jpg" alt="Fotografie de grup la Reprezentanta Comisiei Europene in Romania" style="display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 12px"></figure>
+<figure style="margin: 0"><img src="assets/foto/comisia-europeana-intalnire.jpg" alt="Intalnire de lucru la Reprezentanta Comisiei Europene in Romania" style="display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 12px"></figure>
+</div>
+<figure style="margin: 0 0 20px"><img src="assets/foto/emisiune-tv.jpg" alt="Oana Toader, secretarul general al sindicatului, in platoul unei emisiuni televizate despre pensii si salarii" style="display: block; width: 100%; height: auto; border-radius: 12px"><figcaption style="font-size: 14px; color: #4B5B6B; margin-top: 8px">Oana Toader, secretarul general al sindicatului, intr-o emisiune despre pensii si salarii (Romania TV, decembrie 2024)</figcaption></figure>
+</sc-if>
+<sc-if value="{{current.isProject}}" hint-placeholder-val="{{false}}">
+<figure style="margin: 8px 0 20px"><img src="assets/foto/atelier-meridian.jpg" alt="Atelier de lucru in proiect, la sediul Confederatiei Sindicale Nationale MERIDIAN" style="display: block; width: 100%; height: auto; border-radius: 12px"><figcaption style="font-size: 14px; color: #4B5B6B; margin-top: 8px">Atelier de lucru cu membrii, la sediul Confederatiei MERIDIAN</figcaption></figure>
+</sc-if>
+<sc-if value="{{current.isProject}}" hint-placeholder-val="{{false}}">
+<div style="margin: 8px 0 20px; display: inline-flex; align-items: center; gap: 14px; padding: 14px 18px; background: #FFFFFF; border: 1px solid #E3E8F0; border-radius: 8px">
+<svg width="72" height="48" viewBox="0 0 60 40" role="img" aria-label="Emblema Uniunii Europene"><rect width="60" height="40" fill="#003399"></rect><g fill="#FFCC00"><polygon transform="translate(30 6.67) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(36.67 8.45) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(41.55 13.33) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(43.33 20) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(41.55 26.67) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(36.67 31.55) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(30 33.33) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(23.33 31.55) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(18.45 26.67) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(16.67 20) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(18.45 13.33) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(23.33 8.45) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon></g></svg>
+<div style="font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 18px; line-height: 1.2; color: #003399"><div>Finantat de</div><div>Uniunea Europeana</div></div>
+</div>
+</sc-if>
+<p style="margin: 8px 0 0; font-size: 15px; color: #4B5B6B">Alege alt reper din harta pentru a citi continuarea.</p>
+</div>
+</div>
+</div>
+</sc-if>
+</div>
+</section>
+
+<section id="marturii" style="background: #255ECF; color: #FFFFFF; position: relative; overflow: hidden">
+<div aria-hidden="true" style="position: absolute; right: -60px; bottom: -80px; width: 360px; height: 360px; opacity: 0.07; pointer-events: none">
+<div style="position: absolute; left: 120px; top: 0; width: 120px; height: 360px; background: #FFFFFF"></div>
+<div style="position: absolute; left: 0; top: 120px; width: 360px; height: 120px; background: #FFFFFF"></div>
+</div>
+<div style="position: relative; max-width: 960px; margin: 0 auto; padding: 96px 24px">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #FFCD2E; font-weight: 600; margin-bottom: 24px">Vocile noastre</div>
+<div aria-live="polite">
+<sc-if value="{{t0}}" hint-placeholder-val="{{true}}">
+<figure class="rise1" style="margin: 0">
+<div aria-hidden="true" style="font-family: 'Source Serif 4', Georgia, serif; font-size: 120px; line-height: 0.6; color: #FFCD2E; height: 48px">“</div>
+<blockquote style="margin: 0 0 32px; font-family: 'Source Serif 4', Georgia, serif; font-size: 28px; line-height: 1.45; font-weight: 600">
+<p style="margin: 0 0 18px">Am venit in sindicat cu o intrebare pe care si-o pun multi colegi: de ce munca noastra, a celor care tinem spitalul in functiune din birouri, pare sa conteze mai putin atunci cand vine vorba de salarizare?</p>
+<p style="margin: 0 0 18px">Am gasit aici mai mult decat un raspuns. Am gasit oameni competenti, care au studiat legi, decizii ale Inaltei Curti si hotarari judecatoresti pana au identificat cele mai bune solutii pentru personalul TESA, si care au avut apoi rabdarea si tenacitatea sa le duca pana la capat.</p>
+<p style="margin: 0">Am gasit sprijin, raspunsuri clare si colegi pe care ma pot baza. Aici mi-am gasit locul.</p>
+</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 16px">
+<img src="assets/foto/oana-toader.jpg" alt="Oana Toader" style="flex: 0 0 auto; width: 56px; height: 56px; border-radius: 50%; object-fit: cover; border: 3px solid #FFCD2E">
+<span><span style="display: block; font-weight: 700; font-size: 18px">Oana Toader</span><span style="color: #DDE6FA; font-size: 15px">Economist, Spitalul Municipal Campina · Secretar general SNT</span></span>
+</figcaption>
+</figure>
+</sc-if>
+<sc-if value="{{t1}}" hint-placeholder-val="{{false}}">
+<figure class="rise1" style="margin: 0">
+<div aria-hidden="true" style="font-family: 'Source Serif 4', Georgia, serif; font-size: 120px; line-height: 0.6; color: #FFCD2E; height: 48px">“</div>
+<blockquote style="margin: 0 0 32px; font-family: 'Source Serif 4', Georgia, serif; font-size: 28px; line-height: 1.45; font-weight: 600">
+<p style="margin: 0 0 18px">Ca jurist, am vazut de prea multe ori cum o lege neclara devine o nedreptate pentru oamenii care isi fac treaba cu seriozitate. Personalul TESA din spitale a fost tratat diferit, desi munca lui sustine in fiecare zi actul medical, iar instantele au confirmat asta in repetate randuri.</p>
+<p style="margin: 0">Am venit alaturi de colegii TESA pentru ca dreptatea nu se obtine doar in sala de judecata, ci si scriind legi corecte. Amendamentul nostru la noua lege a salarizarii inseamna exact asta: argumente juridice solide, puse in slujba oamenilor.</p>
+</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 16px">
+<img src="assets/foto/laura-jeculescu.jpg" alt="Laura Jeculescu" style="flex: 0 0 auto; width: 56px; height: 56px; border-radius: 50%; object-fit: cover; border: 3px solid #FFCD2E">
+<span><span style="display: block; font-weight: 700; font-size: 18px">Laura Jeculescu</span><span style="color: #DDE6FA; font-size: 15px">Jurist · Vicepresedinte SNT</span></span>
+</figcaption>
+</figure>
+</sc-if>
+<sc-if value="{{t2}}" hint-placeholder-val="{{false}}">
+<figure class="rise1" style="margin: 0">
+<div aria-hidden="true" style="font-family: 'Source Serif 4', Georgia, serif; font-size: 120px; line-height: 0.6; color: #FFCD2E; height: 48px">“</div>
+<blockquote style="margin: 0 0 32px; font-family: 'Source Serif 4', Georgia, serif; font-size: 28px; line-height: 1.45; font-weight: 600">
+<p style="margin: 0 0 18px">In resurse umane vezi de aproape ce inseamna o incadrare gresita: oameni care muncesc la fel de mult, dar sunt platiti dupa o grila care nu li se potriveste. Legea 153/2017 permite incadrarea corecta a personalului TESA din spitale pe Anexa VII, art. 1 si 3, daca este citita atent si aplicata cu buna-credinta.</p>
+<p style="margin: 0">Am ales sa fiu alaturi de colegi pentru ca fiecare reincadrare corecta inseamna un om care isi primeste, in sfarsit, ce i se cuvine. Pentru mine, asta este cea mai frumoasa parte a meseriei.</p>
+</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 16px">
+<img src="assets/foto/irina-bodea.jpg" alt="Irina Bodea" style="flex: 0 0 auto; width: 56px; height: 56px; border-radius: 50%; object-fit: cover; border: 3px solid #FFCD2E">
+<span><span style="display: block; font-weight: 700; font-size: 18px">Irina Bodea</span><span style="color: #DDE6FA; font-size: 15px">Vicepresedinte SNT · Expert legislatia muncii, membru acreditat al Uniunii Nationale a Expertilor in Legislatia Muncii</span></span>
+</figcaption>
+</figure>
+</sc-if>
+<sc-if value="{{t3}}" hint-placeholder-val="{{false}}">
+<figure class="rise1" style="margin: 0">
+<div aria-hidden="true" style="font-family: 'Source Serif 4', Georgia, serif; font-size: 120px; line-height: 0.6; color: #FFCD2E; height: 48px">“</div>
+<blockquote style="margin: 0 0 32px; font-family: 'Source Serif 4', Georgia, serif; font-size: 28px; line-height: 1.45; font-weight: 600">
+<p style="margin: 0 0 18px">La Marghita, departe de locul unde se iau deciziile, aveam impresia ca vocea noastra nu ajunge nicaieri. In Sindicatul National TESA am gasit oameni care cunosc legea, care explica pe intelesul tuturor si care nu fac diferenta intre un spital mare si unul mic.</p>
+<p style="margin: 0">Am venit cu incredere si am ramas cu convingerea ca, impreuna, avem o sansa reala sa fim auziti.</p>
+</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 16px">
+<img src="assets/foto/natalia-chis.jpg" alt="Natalia Chis" style="flex: 0 0 auto; width: 56px; height: 56px; border-radius: 50%; object-fit: cover; border: 3px solid #FFCD2E">
+<span><span style="display: block; font-weight: 700; font-size: 18px">Natalia Chis</span><span style="color: #DDE6FA; font-size: 15px">Membru SNT · Spitalul Municipal „Dr. Pop Mircea” Marghita</span></span>
+</figcaption>
+</figure>
+</sc-if>
+<sc-if value="{{t4}}" hint-placeholder-val="{{false}}">
+<figure class="rise1" style="margin: 0">
+<div aria-hidden="true" style="font-family: 'Source Serif 4', Georgia, serif; font-size: 120px; line-height: 0.6; color: #FFCD2E; height: 48px">“</div>
+<blockquote style="margin: 0 0 32px; font-family: 'Source Serif 4', Georgia, serif; font-size: 28px; line-height: 1.45; font-weight: 600">
+<p style="margin: 0 0 18px">Am pornit campania „Munca nevazuta” dintr-o convingere simpla: ce nu se vede, nu se pretuieste. Ani la rand, munca noastra din spitale a fost tratata ca un detaliu administrativ, desi fara ea niciun pacient nu ar putea fi internat, tratat sau externat.</p>
+<p style="margin: 0">Lupta pentru drepturile angajatilor nu se incheie cu o lege sau cu o campanie. Se duce zi de zi, cu rabdare si cu oameni care nu renunta. In Sindicatul National TESA am gasit exact acesti oameni.</p>
+</blockquote>
+<figcaption style="display: flex; align-items: center; gap: 16px">
+<img src="assets/foto/odeta-vestemean.jpg" alt="Odeta Vestemean" style="flex: 0 0 auto; width: 56px; height: 56px; border-radius: 50%; object-fit: cover; border: 3px solid #FFCD2E">
+<span><span style="display: block; font-weight: 700; font-size: 18px">Odeta Vestemean</span><span style="color: #DDE6FA; font-size: 15px">Vicepresedinte SNT · Initiatoarea campaniei „Munca nevazuta”</span></span>
+</figcaption>
+</figure>
+</sc-if>
+</div>
+<div style="display: flex; align-items: center; gap: 14px; margin-top: 36px">
+<button type="button" onClick="{{tPrev}}" aria-label="Marturia anterioara" style="width: 48px; height: 48px; border-radius: 50%; border: 2px solid #FFFFFF; background: transparent; color: #FFFFFF; cursor: pointer; display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"></path></svg></button>
+<div aria-hidden="true" style="display: flex; gap: 8px"><sc-for list="{{tDots}}" as="d" hint-placeholder-count="5"><span style="width: 10px; height: 10px; border-radius: 50%; background: {{d.c}}"></span></sc-for></div>
+<button type="button" onClick="{{tNext}}" aria-label="Marturia urmatoare" style="width: 48px; height: 48px; border-radius: 50%; border: 0; background: #FFCD2E; color: #03037D; cursor: pointer; display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"></path></svg></button>
+<span style="color: #DDE6FA; font-size: 15px">{{tCount}}</span>
+</div>
+</div>
+</section>
+
+<section id="verifica" style="background: #FFEFD6">
+<div style="max-width: 900px; margin: 0 auto; padding: 88px 24px">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #C8102E; font-weight: 600; margin-bottom: 12px">Test rapid</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 12px; color: #03037D">Esti incadrat corect? Afla in 30 de secunde.</h2>
+<p style="margin: 0 0 32px; color: #33475B">Trei intrebari simple. Raspunsurile raman doar in browserul tau.</p>
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="background: #FFFFFF; border-radius: 16px; padding: 24px">
+<p style="margin: 0 0 14px; font-weight: 600; color: #03037D; font-size: 19px">1. Lucrezi intr-un spital public sau in alta unitate sanitara publica?</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px"><sc-for list="{{q1Opts}}" as="o" hint-placeholder-count="2"><button type="button" onClick="{{o.pick}}" aria-pressed="{{o.pressed}}" style="font: inherit; font-weight: 600; cursor: pointer; min-height: 44px; padding: 10px 24px; border-radius: 999px; border: 2px solid #255ECF; background: {{o.bg}}; color: {{o.fg}}">{{o.label}}</button></sc-for></div>
+</div>
+<sc-if value="{{showQ2}}" hint-placeholder-val="{{false}}">
+<div class="rise1" style="background: #FFFFFF; border-radius: 16px; padding: 24px">
+<p style="margin: 0 0 14px; font-weight: 600; color: #03037D; font-size: 19px">2. Ocupi o functie TESA? (economist, contabil, jurist, informatician, referent, inspector, administrator, personal administrativ)</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px"><sc-for list="{{q2Opts}}" as="o" hint-placeholder-count="2"><button type="button" onClick="{{o.pick}}" aria-pressed="{{o.pressed}}" style="font: inherit; font-weight: 600; cursor: pointer; min-height: 44px; padding: 10px 24px; border-radius: 999px; border: 2px solid #255ECF; background: {{o.bg}}; color: {{o.fg}}">{{o.label}}</button></sc-for></div>
+</div>
+</sc-if>
+<sc-if value="{{showQ3}}" hint-placeholder-val="{{false}}">
+<div class="rise1" style="background: #FFFFFF; border-radius: 16px; padding: 24px">
+<p style="margin: 0 0 14px; font-weight: 600; color: #03037D; font-size: 19px">3. Esti salarizat potrivit Anexei VII?</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px"><sc-for list="{{q3Opts}}" as="o" hint-placeholder-count="3"><button type="button" onClick="{{o.pick}}" aria-pressed="{{o.pressed}}" style="font: inherit; font-weight: 600; cursor: pointer; min-height: 44px; padding: 10px 24px; border-radius: 999px; border: 2px solid #255ECF; background: {{o.bg}}; color: {{o.fg}}">{{o.label}}</button></sc-for></div>
+</div>
+</sc-if>
+<div aria-live="polite">
+<sc-if value="{{resAltii}}" hint-placeholder-val="{{false}}">
+<div class="rise1" style="background: #03037D; color: #FFFFFF; border-radius: 16px; padding: 28px">
+<p style="margin: 0 0 8px; font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; font-weight: 700; color: #FFCD2E">Ne adresam personalului TESA din unitatile sanitare publice.</p>
+<p style="margin: 0 0 18px; color: #DDE1F7">Daca totusi ai o problema legata de salarizare in sistemul sanitar, scrie-ne si iti spunem daca te putem ajuta.</p>
+<a class="btn" href="mailto:nationaltesa@gmail.com?subject=Intrebare%20salarizare" style="display: inline-flex; align-items: center; min-height: 44px; background: #FFCD2E; color: #03037D; text-decoration: none; font-weight: 700; padding: 12px 24px; border-radius: 999px">Scrie-ne</a>
+</div>
+</sc-if>
+<sc-if value="{{resDa}}" hint-placeholder-val="{{false}}">
+<div class="rise1" style="background: #03037D; color: #FFFFFF; border-radius: 16px; padding: 28px">
+<p style="margin: 0 0 8px; font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; font-weight: 700; color: #FFCD2E">Esti incadrat pe Anexa VII. Acum trebuie pastrata.</p>
+<p style="margin: 0 0 18px; color: #DDE1F7">Noua lege a salarizarii decide si pentru tine. Pozitia castigata pentru personalul TESA se apara la masa negocierilor, iar acolo conteaza cati suntem.</p>
+<a class="btn" href="#membru" style="display: inline-flex; align-items: center; min-height: 44px; background: #FFCD2E; color: #03037D; text-decoration: none; font-weight: 700; padding: 12px 24px; border-radius: 999px">Devino membru</a>
+</div>
+</sc-if>
+<sc-if value="{{resNu}}" hint-placeholder-val="{{false}}">
+<div class="rise1" style="background: #C8102E; color: #FFFFFF; border-radius: 16px; padding: 28px">
+<p style="margin: 0 0 8px; font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; font-weight: 700">S-ar putea sa ai dreptul la incadrarea pe Anexa VII.</p>
+<p style="margin: 0 0 18px">Potrivit Deciziei ICCJ nr. 61/2022, personalul TESA din spitalele publice se salarizeaza potrivit Anexei VII. Membrii nostri primesc Kitul Anexa VII: modelul de nota de fundamentare, pasii de urmat si un coleg care ii indruma.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<a class="btn" href="#kit" style="display: inline-flex; align-items: center; min-height: 44px; background: #FFFFFF; color: #C8102E; text-decoration: none; font-weight: 700; padding: 12px 24px; border-radius: 999px">Vezi Kitul Anexa VII</a>
+<a class="btn" href="mailto:nationaltesa@gmail.com?subject=Incadrare%20Anexa%20VII" style="display: inline-flex; align-items: center; min-height: 44px; background: transparent; color: #FFFFFF; border: 2px solid #FFFFFF; text-decoration: none; font-weight: 600; padding: 10px 22px; border-radius: 999px">Am o intrebare</a>
+</div>
+</div>
+</sc-if>
+<sc-if value="{{resNs}}" hint-placeholder-val="{{false}}">
+<div class="rise1" style="background: #255ECF; color: #FFFFFF; border-radius: 16px; padding: 28px">
+<p style="margin: 0 0 8px; font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; font-weight: 700; color: #FFE38A">Nu stii pe ce anexa esti platit? Nu esti singurul.</p>
+<p style="margin: 0 0 18px; color: #EEF2FD">Uita-te in decizia de incadrare sau intreaba la serviciul de resurse umane. Sau scrie-ne si verificam impreuna.</p>
+<a class="btn" href="mailto:nationaltesa@gmail.com?subject=Verificare%20incadrare" style="display: inline-flex; align-items: center; min-height: 44px; background: #FFCD2E; color: #03037D; text-decoration: none; font-weight: 700; padding: 12px 24px; border-radius: 999px">Verificam impreuna</a>
+</div>
+</sc-if>
+</div>
+<sc-if value="{{anyAnswer}}" hint-placeholder-val="{{false}}">
+<button type="button" onClick="{{resetQuiz}}" style="align-self: flex-start; font: inherit; font-weight: 600; cursor: pointer; min-height: 44px; padding: 8px 4px; border: 0; background: none; color: #255ECF; text-decoration: underline">Reia testul</button>
+</sc-if>
+</div>
+</div>
+</section>
+
+<section id="kit" style="max-width: 1180px; margin: 0 auto; padding: 88px 24px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 1 1 300px; min-width: 0; display: flex; justify-content: center">
+<div style="position: relative; width: 300px; max-width: 100%">
+<div aria-hidden="true" style="position: absolute; inset: 0; background: #FFCD2E; border-radius: 10px; transform: rotate(4deg)"></div>
+<div style="position: relative; background: #FFFFFF; border-radius: 10px; overflow: hidden; box-shadow: 0 18px 40px rgba(3,3,125,.18); transform: rotate(-2deg)">
+<img src="assets/foto/kit-previzualizare.jpg" alt="Previzualizare estompata a modelului de nota de fundamentare pentru reincadrarea pe Anexa VII" style="display: block; width: 100%; height: auto">
+<div aria-hidden="true" style="position: absolute; left: 0; right: 0; bottom: 0; height: 40%; background: linear-gradient(rgba(255,255,255,0), #FFFFFF)"></div>
+<div style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center">
+<div style="background: #03037D; color: #FFFFFF; border-radius: 999px; padding: 10px 18px; display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 15px; box-shadow: 0 8px 20px rgba(3,3,125,.3)"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FFCD2E" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="11" width="14" height="10" rx="2"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Disponibil pentru membri</div>
+</div>
+</div>
+</div>
+</div>
+<div style="flex: 999 1 480px; min-width: 0">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #C8102E; font-weight: 600; margin-bottom: 12px">Beneficiu pentru membri</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 16px; color: #03037D">Kitul Anexa VII</h2>
+<p style="margin: 0 0 22px; font-size: 18px; color: #33475B">Dreptul tau e scris in lege si confirmat de Inalta Curte. Ca sa-l obtii, ai nevoie de pasii corecti si de cineva alaturi. Membrii nostri primesc:</p>
+<ul style="list-style: none; margin: 0 0 28px; padding: 0; display: flex; flex-direction: column; gap: 14px">
+<li style="display: flex; gap: 12px"><span style="flex: 0 0 auto; width: 32px; height: 32px; border-radius: 50%; background: #255ECF; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">1</span><span><strong style="color: #03037D">Modelul de nota de fundamentare</strong> pentru reincadrarea pe Anexa VII, art. 1 si 3, cu temeiul legal si jurisprudenta ICCJ, gata de completat cu datele spitalului tau.</span></li>
+<li style="display: flex; gap: 12px"><span style="flex: 0 0 auto; width: 32px; height: 32px; border-radius: 50%; background: #255ECF; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">2</span><span><strong style="color: #03037D">Pasii de urmat</strong>, inclusiv daca ai fost reincadrat pe Anexa VII, dar pe articolele gresite (art. 2 si 4), sau daca solicitarea iti este refuzata.</span></li>
+<li style="display: flex; gap: 12px"><span style="flex: 0 0 auto; width: 32px; height: 32px; border-radius: 50%; background: #255ECF; color: #FFFFFF; font-weight: 700; display: flex; align-items: center; justify-content: center">3</span><span><strong style="color: #03037D">Un coleg din sindicat</strong> care se uita pe situatia ta si te indruma pana la capat.</span></li>
+</ul>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a class="btn" href="#membru" style="display: inline-flex; align-items: center; min-height: 48px; box-sizing: border-box; background: #FFCD2E; color: #03037D; text-decoration: none; font-weight: 700; padding: 12px 24px; border-radius: 999px">Vreau sa devin membru</a>
+<a class="btn" href="https://wa.me/40728294825?text=Buna%20ziua!%20Sunt%20membru%20al%20Sindicatului%20National%20TESA%20si%20as%20dori%20Kitul%20Anexa%20VII." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 48px; box-sizing: border-box; background: #FFFFFF; color: #03037D; border: 2px solid #255ECF; text-decoration: none; font-weight: 600; padding: 10px 22px; border-radius: 999px">Sunt deja membru: cer kitul</a>
+</div>
+</div>
+</section>
+
+<section id="membru" style="background: #FFCD2E">
+<div style="max-width: 1180px; margin: 0 auto; padding: 88px 24px">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #03037D; font-weight: 600; margin-bottom: 12px">Adeziune</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 40px; color: #03037D">Cum devii membru</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 24px; margin-bottom: 36px">
+<div style="background: #FFFFFF; border-radius: 16px; padding: 28px">
+<div style="font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; font-weight: 700; color: #255ECF; line-height: 1">1</div>
+<h3 style="font-size: 19px; margin: 14px 0 8px; color: #03037D">Descarca cererea</h3>
+<p style="margin: 0; color: #4B5B6B">Descarca formularul de adeziune din sectiunea Documente.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 28px">
+<div style="font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; font-weight: 700; color: #255ECF; line-height: 1">2</div>
+<h3 style="font-size: 19px; margin: 14px 0 8px; color: #03037D">Completeaza si semneaza</h3>
+<p style="margin: 0; color: #4B5B6B">Prin cerere iti exprimi acordul cu Statutul si cu retinerea cotizatiei pe statul de plata.</p>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 28px">
+<div style="font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; font-weight: 700; color: #255ECF; line-height: 1">3</div>
+<h3 style="font-size: 19px; margin: 14px 0 8px; color: #03037D">Preda-o reprezentantului</h3>
+<p style="margin: 0; color: #4B5B6B">Personal, liderului de sindicat din unitate, sau pe email la nationaltesa@gmail.com.</p>
+</div>
+</div>
+<div style="background: #FFFFFF; border-radius: 16px; padding: 24px 28px; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 20px 32px; margin-bottom: 20px">
+<div style="flex: 1 1 240px; min-width: 0">
+<label for="salariu" style="display: block; font-weight: 600; color: #03037D; margin-bottom: 8px">Calculeaza-ti cotizatia: salariul tau brut (lei)</label>
+<input id="salariu" type="number" inputmode="numeric" min="0" step="100" value="{{salary}}" onChange="{{onSalary}}" style="font: inherit; font-size: 22px; width: 100%; box-sizing: border-box; padding: 12px 14px; border: 2px solid #A9C1EF; border-radius: 10px; color: #03037D; background: #FFFFFF">
+</div>
+<div style="flex: 1 1 220px; min-width: 0">
+<div style="font-size: 14px; color: #4B5B6B; margin-bottom: 6px">Cotizatia ta lunara</div>
+<div style="font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; font-weight: 700; color: #255ECF; line-height: 1">{{cotizatie}} lei<span style="font-family: 'Work Sans', system-ui, sans-serif; font-size: 17px; font-weight: 500; color: #4B5B6B"> / luna</span></div>
+</div>
+<p style="margin: 0; flex: 999 1 100%; color: #1C2B3A">Cotizatia este de 0,5% din salariul brut si se retine direct pe statul de plata, fara drumuri si fara plati separate.</p>
+</div>
+<p style="margin: 0; font-size: 16px; color: #03037D">Datele din cerere sunt prelucrate exclusiv in scopul evidentei membrilor, conform <a href="confidentialitate.html" style="color: #03037D">Politicii de confidentialitate</a>.</p>
+</div>
+</section>
+
+<section aria-label="Din activitatea noastra" style="max-width: 1180px; margin: 0 auto; padding: 88px 24px 0">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #C8102E; font-weight: 600; margin-bottom: 12px">Galerie</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 32px; color: #03037D">Din activitatea noastra</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px">
+<button type="button" class="zoom lift" onClick="{{openG5}}" aria-label="Mareste fotografia: Munca nevazuta, in fiecare zi" style="padding: 0; border: 0; background: none; cursor: zoom-in; display: block; width: 100%; border-radius: 16px; position: relative; font: inherit"><img src="assets/foto/munca-la-birou.jpg" alt="Doua colege TESA lucrand impreuna la birou, cu un dosar deschis" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover"><span style="position: absolute; left: 12px; bottom: 12px; background: #FFFFFF; color: #03037D; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 999px">Munca nevazuta, in fiecare zi</span></button>
+<button type="button" class="zoom lift" onClick="{{openG1}}" aria-label="Mareste fotografia: Conferinta nationala" style="padding: 0; border: 0; background: none; cursor: zoom-in; display: block; width: 100%; border-radius: 16px; position: relative; font: inherit"><img src="assets/foto/conferinta.jpg" alt="Conferinta nationala Uniunea TESA, Pretuieste-ti munca" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover"><span style="position: absolute; left: 12px; bottom: 12px; background: #FFFFFF; color: #03037D; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 999px">Conferinta nationala</span></button>
+<button type="button" class="zoom lift" onClick="{{openG2}}" aria-label="Mareste fotografia: In strada, cu presa" style="padding: 0; border: 0; background: none; cursor: zoom-in; display: block; width: 100%; border-radius: 16px; position: relative; font: inherit"><img src="assets/foto/strada.jpg" alt="Declaratii de presa in timpul unui protest" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover"><span style="position: absolute; left: 12px; bottom: 12px; background: #FFFFFF; color: #03037D; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 999px">In strada, cu presa</span></button>
+<button type="button" class="zoom lift" onClick="{{openG3}}" aria-label="Mareste fotografia: La Comisia Europeana" style="padding: 0; border: 0; background: none; cursor: zoom-in; display: block; width: 100%; border-radius: 16px; position: relative; font: inherit"><img src="assets/foto/comisia-europeana-grup.jpg" alt="Fotografie de grup la Reprezentanta Comisiei Europene in Romania" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover"><span style="position: absolute; left: 12px; bottom: 12px; background: #FFFFFF; color: #03037D; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 999px">La Comisia Europeana</span></button>
+<button type="button" class="zoom lift" onClick="{{openG4}}" aria-label="Mareste fotografia: Ateliere cu membrii" style="padding: 0; border: 0; background: none; cursor: zoom-in; display: block; width: 100%; border-radius: 16px; position: relative; font: inherit"><img src="assets/foto/atelier-meridian.jpg" alt="Atelier de lucru cu membrii, la sediul Confederatiei MERIDIAN" style="display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover"><span style="position: absolute; left: 12px; bottom: 12px; background: #FFFFFF; color: #03037D; font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 999px">Ateliere cu membrii</span></button>
+</div>
+<sc-if value="{{lightOpen}}" hint-placeholder-val="{{false}}">
+<div role="dialog" aria-modal="true" aria-label="Fotografie marita" style="position: fixed; inset: 0; z-index: 50; background: rgba(3,3,40,.88); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 24px">
+<sc-if value="{{g1}}" hint-placeholder-val="{{false}}"><img src="assets/foto/conferinta.jpg" alt="Conferinta nationala Uniunea TESA, Pretuieste-ti munca" style="max-width: 100%; max-height: 78vh; border-radius: 12px; display: block"></sc-if>
+<sc-if value="{{g2}}" hint-placeholder-val="{{false}}"><img src="assets/foto/strada.jpg" alt="Declaratii de presa in timpul unui protest" style="max-width: 100%; max-height: 78vh; border-radius: 12px; display: block"></sc-if>
+<sc-if value="{{g3}}" hint-placeholder-val="{{false}}"><img src="assets/foto/comisia-europeana-grup.jpg" alt="Fotografie de grup la Reprezentanta Comisiei Europene in Romania" style="max-width: 100%; max-height: 78vh; border-radius: 12px; display: block"></sc-if>
+<sc-if value="{{g5}}" hint-placeholder-val="{{false}}"><img src="assets/foto/munca-la-birou.jpg" alt="Doua colege TESA lucrand impreuna la birou, cu un dosar deschis" style="max-width: 100%; max-height: 78vh; border-radius: 12px; display: block"></sc-if>
+<sc-if value="{{g4}}" hint-placeholder-val="{{false}}"><img src="assets/foto/atelier-meridian.jpg" alt="Atelier de lucru cu membrii, la sediul Confederatiei MERIDIAN" style="max-width: 100%; max-height: 78vh; border-radius: 12px; display: block"></sc-if>
+<div style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center">
+<button type="button" onClick="{{prevG}}" style="font: inherit; font-weight: 600; cursor: pointer; min-height: 44px; padding: 10px 22px; border-radius: 999px; border: 2px solid #FFFFFF; background: transparent; color: #FFFFFF">Inapoi</button>
+<button type="button" onClick="{{closeG}}" style="font: inherit; font-weight: 700; cursor: pointer; min-height: 44px; padding: 10px 26px; border-radius: 999px; border: 0; background: #FFCD2E; color: #03037D">Inchide</button>
+<button type="button" onClick="{{nextG}}" style="font: inherit; font-weight: 600; cursor: pointer; min-height: 44px; padding: 10px 22px; border-radius: 999px; border: 2px solid #FFFFFF; background: transparent; color: #FFFFFF">Inainte</button>
+</div>
+</div>
+</sc-if>
+</section>
+
+<section id="intrebari" style="max-width: 1180px; margin: 0 auto; padding: 88px 24px 0; display: flex; flex-wrap: wrap; gap: 48px">
+<div style="flex: 1 1 300px; min-width: 0">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #C8102E; font-weight: 600; margin-bottom: 12px">Intrebari frecvente</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 16px; color: #03037D">Inainte sa te inscrii</h2>
+<p style="margin: 0; color: #4B5B6B">Nu ai gasit raspunsul? <a href="mailto:nationaltesa@gmail.com?subject=Intrebare%20despre%20inscriere">Scrie-ne</a>.</p>
+</div>
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<details style="background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 18px 22px">
+<summary style="cursor: pointer; font-weight: 600; color: #03037D; font-size: 18px">Afla angajatorul ca sunt membru de sindicat?</summary>
+<p style="margin: 12px 0 0">Da. Cotizatia se retine direct pe statul de plata, cu acordul tau scris din cererea de adeziune, asa ca serviciul de salarizare afla ca esti membru. Angajatorul primeste doar datele necesare retinerii cotizatiei.</p>
+</details>
+<details style="background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 18px 22px">
+<summary style="cursor: pointer; font-weight: 600; color: #03037D; font-size: 18px">Pot avea probleme la serviciu pentru ca sunt membru?</summary>
+<p style="margin: 12px 0 0">Nu ar trebui. Codul muncii interzice discriminarea salariatilor pe criteriul apartenentei ori activitatii sindicale, iar Legea nr. 367/2022 a dialogului social protejeaza dreptul de a face parte dintr-un sindicat. Daca te confrunti totusi cu o astfel de situatie, anunta-ne.</p>
+</details>
+<details style="background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 18px 22px">
+<summary style="cursor: pointer; font-weight: 600; color: #03037D; font-size: 18px">Sunt deja membru in alt sindicat. Ma pot inscrie?</summary>
+<p style="margin: 12px 0 0">Potrivit legii, o persoana poate fi membra, in acelasi timp, a unui singur sindicat la acelasi angajator. De aceea, cererea de adeziune cuprinde declaratia ca nu esti membru al altui sindicat. Daca vrei sa treci la noi, te retragi mai intai din sindicatul actual.</p>
+</details>
+<details style="background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 18px 22px">
+<summary style="cursor: pointer; font-weight: 600; color: #03037D; font-size: 18px">Cat ma costa?</summary>
+<p style="margin: 12px 0 0">Cotizatia este de 0,5% din salariul brut, retinuta lunar pe statul de plata. La un salariu brut de 6.000 lei, inseamna 30 lei pe luna.</p>
+</details>
+<details style="background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 18px 22px">
+<summary style="cursor: pointer; font-weight: 600; color: #03037D; font-size: 18px">Daca ma razgandesc, ma pot retrage?</summary>
+<p style="margin: 12px 0 0">Da. Nimeni nu poate fi obligat sa ramana membru al unui sindicat. Te poti retrage oricand, printr-o cerere scrisa adresata sindicatului, conform Statutului.</p>
+</details>
+<details style="background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 18px 22px">
+<summary style="cursor: pointer; font-weight: 600; color: #03037D; font-size: 18px">Ce este, pe scurt, Anexa VII si de ce conteaza?</summary>
+<p style="margin: 12px 0 0">Anexa VII este grila de salarizare care, potrivit Deciziei ICCJ nr. 61/2022, se aplica personalului TESA din spitalele publice. In practica, multe spitale nu au aplicat-o. Daca nu stii pe ce anexa esti platit sau ti s-a refuzat incadrarea, scrie-ne si te indrumam.</p>
+</details>
+</div>
+</section>
+
+<section id="documente" style="max-width: 1180px; margin: 0 auto; padding: 88px 24px">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #C8102E; font-weight: 600; margin-bottom: 12px">Resurse</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 32px; color: #03037D">Documente utile</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
+<a href="documente/Cerere_de_adeziune_SNT.pdf" target="_blank" rel="noopener" download="Cerere_de_adeziune_SNT.pdf" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 20px 22px; text-decoration: none; color: #1C2B3A; font-weight: 500; min-height: 44px">Cerere de adeziune (PDF)<span style="color: #255ECF; font-weight: 600">Descarca</span></a>
+<a href="documente/Amendamente_TESA_Anexa_II.pdf" target="_blank" rel="noopener" download="Amendamente_TESA_Anexa_II.pdf" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 20px 22px; text-decoration: none; color: #1C2B3A; font-weight: 500; min-height: 44px">Amendamentele noastre la noua lege a salarizarii (PDF)<span style="color: #255ECF; font-weight: 600">Descarca</span></a>
+<a href="https://mmuncii.gov.ro/ministerul-muncii-familiei-tineretului-si-solidaritatii-sociale-publica-proiectul-legii-salarizarii-pentru-personalul-platit-din-fonduri-publice-respectiv-grilele-de-salarizare-si-calendarul-de-imp/" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 20px 22px; text-decoration: none; color: #1C2B3A; font-weight: 500; min-height: 44px">Proiectul Legii salarizarii, varianta august 2026 (TESA: Anexa II, art. 12)<span style="color: #255ECF; font-weight: 600">Deschide</span></a>
+<a href="https://legislatie.just.ro/Public/DetaliiDocument/227318" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 20px 22px; text-decoration: none; color: #1C2B3A; font-weight: 500; min-height: 44px">Legea nr. 153/2017 - salarizare<span style="color: #255ECF; font-weight: 600">Deschide</span></a>
+<a href="https://www.inspectiamuncii.ro/documents/558066/4544318/LEGE+nr+367+din+2022.pdf/5285ef2a-e949-4ea3-bb47-fbcfbc218166" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 20px 22px; text-decoration: none; color: #1C2B3A; font-weight: 500; min-height: 44px">Legea nr. 367/2022 - dialog social<span style="color: #255ECF; font-weight: 600">Deschide</span></a>
+<a href="mailto:nationaltesa@gmail.com?subject=Solicitare%20ajutor%20-%20membru%20TESA" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #FFCD2E; border: 1px solid #FFCD2E; border-radius: 12px; padding: 20px 22px; text-decoration: none; color: #03037D; font-weight: 600; min-height: 44px">Ai nevoie de ajutor sau de un document? Scrie-ne<span style="color: #03037D; font-weight: 700">Solicita</span></a>
+</div>
+</section>
+
+<section id="contactat" style="background: #FFEFD6">
+<div style="max-width: 1180px; margin: 0 auto; padding: 88px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start">
+<div style="flex: 1 1 320px; min-width: 0">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #C8102E; font-weight: 600; margin-bottom: 12px">Te sunam noi</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 16px; color: #03037D">Vreau sa fiu contactat</h2>
+<p style="margin: 0 0 16px; font-size: 18px; color: #33475B">Scrie-ne un mesaj scurt si un coleg din sindicat te contacteaza ca sa discutati despre inscriere, despre incadrarea ta salariala sau despre o problema de la locul de munca.</p>
+<ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; color: #1C2B3A">
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#255ECF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 3px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Discutia nu te obliga la nimic.</span></li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#255ECF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 3px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Mesajul ajunge direct la sindicat. Pagina nu colecteaza si nu pastreaza date.</span></li>
+<li style="display: flex; gap: 10px"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#255ECF" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto; margin-top: 3px"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg><span>Angajatorul tau nu afla nimic din aceasta solicitare.</span></li>
+</ul>
+</div>
+<div class="lift" style="flex: 999 1 460px; min-width: 0; background: #FFFFFF; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 16px; box-shadow: 10px 10px 0 #255ECF">
+<h3 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 26px; margin: 0; color: #03037D">Alege cum iti e mai usor</h3>
+<a class="btn" href="https://wa.me/40728294825?text=Buna%20ziua!%20As%20dori%20sa%20fiu%20contactat%20de%20Sindicatul%20National%20TESA." target="_blank" rel="noopener" style="display: flex; align-items: center; gap: 14px; min-height: 64px; box-sizing: border-box; background: #1E7D3F; color: #FFFFFF; text-decoration: none; padding: 14px 20px; border-radius: 16px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M4 19l1.4-4A7.5 7.5 0 1 1 9 18.6z"></path><path d="M9 10.5c.5 2 2.5 4 4.5 4.5"></path></svg><span><span style="display: block; font-weight: 700; font-size: 19px">Scrie-ne pe WhatsApp</span><span style="font-size: 15px; color: #DDF2E3">0728 294 825 · cel mai rapid raspuns</span></span></a>
+<a class="btn" href="mailto:nationaltesa@gmail.com?subject=Vreau%20sa%20fiu%20contactat&amp;body=Buna%20ziua%2C%0A%0AAs%20dori%20sa%20fiu%20contactat%20de%20Sindicatul%20National%20TESA.%0A%0ANume%3A%20%0ATelefon%3A%20%0AUnitatea%20sanitara%3A%20%0ADespre%20ce%20vreau%20sa%20vorbim%3A%20%0A%0AMultumesc!" style="display: flex; align-items: center; gap: 14px; min-height: 64px; box-sizing: border-box; background: #FFCD2E; color: #03037D; text-decoration: none; padding: 14px 20px; border-radius: 16px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#03037D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M4 6h16v12H4z"></path><path d="M4 7l8 6 8-6"></path></svg><span><span style="display: block; font-weight: 700; font-size: 19px">Trimite-ne un email</span><span style="font-size: 15px">nationaltesa@gmail.com · mesaj gata completat</span></span></a>
+<a class="btn" href="tel:+40728294825" style="display: flex; align-items: center; gap: 14px; min-height: 64px; box-sizing: border-box; background: #FFFFFF; color: #03037D; border: 2px solid #255ECF; text-decoration: none; padding: 12px 18px; border-radius: 16px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#255ECF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg><span><span style="display: block; font-weight: 700; font-size: 19px">Suna secretarul general</span><span style="font-size: 15px; color: #4B5B6B">Oana Toader · (+40) 728 294 825</span></span></a>
+<a class="btn" href="tel:+40726759824" style="display: flex; align-items: center; gap: 14px; min-height: 64px; box-sizing: border-box; background: #FFFFFF; color: #03037D; border: 2px solid #255ECF; text-decoration: none; padding: 12px 18px; border-radius: 16px"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#255ECF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: 0 0 auto"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg><span><span style="display: block; font-weight: 700; font-size: 19px">Suna presedintele</span><span style="font-size: 15px; color: #4B5B6B">Chifor Valentin Liviu · (+40) 726 759 824</span></span></a>
+</div>
+</div>
+</section>
+
+<section id="contact" style="background: #03037D; color: #FFFFFF">
+<div style="max-width: 1180px; margin: 0 auto; padding: 88px 24px; display: flex; flex-wrap: wrap; gap: 48px">
+<div style="flex: 1 1 320px; min-width: 0">
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 16px">Contact</h2>
+<p style="margin: 0; color: #CFE0F0">Ai o problema la locul de munca? Scrie-ne sau suna-ne.</p>
+</div>
+<div style="flex: 999 1 520px; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 28px">
+<div><div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFCD2E; margin-bottom: 6px">Secretar general</div><div style="font-size: 19px"><a href="tel:+40728294825" style="color: #FFFFFF">(+40) 728 294 825</a></div><div style="font-size: 15px; color: #C9CDF2">Oana Toader</div></div>
+<div><div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFCD2E; margin-bottom: 6px">Presedinte</div><div style="font-size: 19px"><a href="tel:+40726759824" style="color: #FFFFFF">(+40) 726 759 824</a></div><div style="font-size: 15px; color: #C9CDF2">Chifor Valentin Liviu</div></div>
+<div><div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFCD2E; margin-bottom: 6px">WhatsApp</div><div style="font-size: 19px"><a href="https://wa.me/40728294825" target="_blank" rel="noopener" style="color: #FFFFFF">Scrie-ne pe WhatsApp</a></div></div>
+<div><div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFCD2E; margin-bottom: 6px">Email</div><div style="font-size: 19px"><a href="mailto:nationaltesa@gmail.com" style="color: #FFFFFF">nationaltesa@gmail.com</a></div></div>
+<div><div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFCD2E; margin-bottom: 6px">Sediu</div><div style="font-size: 19px">Str. Cupolei nr. 4-8, bl. 102, ap. 14, Bucuresti, sector 6</div></div>
+<div><div style="font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: #FFCD2E; margin-bottom: 6px">Facebook</div><div style="font-size: 19px"><a href="https://www.facebook.com/profile.php?id=61568271820800" target="_blank" rel="noopener" style="color: #FFFFFF">Sindicatul National TESA</a></div></div>
+</div>
+</div>
+<div style="border-top: 1px solid #2323A0">
+<div style="max-width: 1180px; margin: 0 auto; padding: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 14px; color: #C9CDF2">
+<div>© 2026 Sindicatul National TESA</div>
+<a href="confidentialitate.html" style="color: #C9CDF2">Politica de confidentialitate</a>
+</div>
+</div>
+</section>
+
+<div style="position: fixed; right: 16px; bottom: 16px; z-index: 40; display: flex; align-items: flex-end; gap: 10px; max-width: calc(100vw - 32px)">
+<sc-if value="{{guideOpen}}" hint-placeholder-val="{{false}}">
+<div class="rise1" role="dialog" aria-label="Ghidul paginii" style="position: relative; background: #FFFFFF; border: 2px solid #255ECF; border-radius: 16px; padding: 12px 14px 10px; width: 256px; max-width: calc(100vw - 104px); max-height: 72vh; overflow-y: auto; box-sizing: border-box; box-shadow: 0 12px 30px rgba(3,3,125,.22)">
+<button type="button" onClick="{{gClose}}" aria-label="Inchide ghidul" style="position: absolute; top: 6px; right: 6px; width: 36px; height: 36px; border: 0; background: none; cursor: pointer; color: #4B5B6B; display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13"></path></svg></button>
+<div style="font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 600; color: #C8102E; padding-right: 26px">{{gHeader}}</div>
+<p style="margin: 6px 4px 10px 0; color: #1C2B3A; font-size: 14px; line-height: 1.4">{{gText}}</p>
+
+<sc-if value="{{gIsMenu}}" hint-placeholder-val="{{true}}">
+<div style="display: flex; flex-direction: column; gap: 6px; margin-bottom: 8px">
+<sc-for list="{{gChoices}}" as="c" hint-placeholder-count="4">
+<button type="button" class="btn" onClick="{{c.pick}}" style="font: inherit; font-weight: 600; font-size: 13.5px; line-height: 1.25; text-align: left; cursor: pointer; min-height: 40px; padding: 7px 10px; border-radius: 10px; border: 1.5px solid #A9C1EF; background: #FFFFFF; color: #03037D">{{c.label}}</button>
+</sc-for>
+</div>
+</sc-if>
+
+<sc-if value="{{gHasLink}}" hint-placeholder-val="{{false}}">
+<a class="btn" href="{{gHref}}" onClick="{{gGo}}" style="display: inline-flex; align-items: center; min-height: 40px; box-sizing: border-box; background: #255ECF; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 14px; padding: 8px 16px; border-radius: 999px; margin-bottom: 6px">{{gLinkLabel}}</a>
+</sc-if>
+
+<sc-if value="{{gIsTour}}" hint-placeholder-val="{{false}}">
+<div style="display: flex; gap: 8px; justify-content: space-between; align-items: center">
+<button type="button" onClick="{{gPrev}}" style="font: inherit; font-weight: 600; cursor: pointer; min-height: 44px; padding: 8px 10px; border: 0; background: none; color: #255ECF">Inapoi</button>
+<div aria-hidden="true" style="display: flex; gap: 5px"><sc-for list="{{gDots}}" as="d" hint-placeholder-count="6"><span style="width: 7px; height: 7px; border-radius: 50%; background: {{d.c}}"></span></sc-for></div>
+<button type="button" onClick="{{gNext}}" style="font: inherit; font-weight: 700; cursor: pointer; min-height: 44px; padding: 8px 18px; border-radius: 999px; border: 0; background: #255ECF; color: #FFFFFF">{{gNextLabel}}</button>
+</div>
+</sc-if>
+
+<sc-if value="{{gIsAns}}" hint-placeholder-val="{{false}}">
+<button type="button" onClick="{{gBack}}" style="font: inherit; font-weight: 600; cursor: pointer; min-height: 44px; padding: 8px 0; border: 0; background: none; color: #255ECF">← Alta intrebare</button>
+</sc-if>
+
+<sc-if value="{{gShowJoin}}" hint-placeholder-val="{{true}}">
+<a class="btn" href="#membru" onClick="{{gClose}}" style="margin-top: 6px; display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; box-sizing: border-box; background: #FFCD2E; color: #03037D; text-decoration: none; font-weight: 700; font-size: 14px; padding: 8px 12px; border-radius: 10px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#03037D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"></path><path d="M8.5 12l2.5 2.5 4.5-5"></path></svg>Vreau sa fiu protejat</a>
+</sc-if>
+</div>
+</sc-if>
+<sc-if value="{{gShowTeaser}}" hint-placeholder-val="{{false}}">
+<button type="button" class="rise1" onClick="{{gToggle}}" style="font: inherit; font-weight: 600; cursor: pointer; background: #03037D; color: #FFFFFF; border: 0; border-radius: 14px 14px 4px 14px; padding: 9px 13px; min-height: 40px; font-size: 14px; box-shadow: 0 8px 20px rgba(3,3,125,.28); text-align: left; max-width: 190px">Esti protejat la locul de munca? <span style="color: #FFCD2E">Hai sa vedem.</span></button>
+</sc-if>
+<button type="button" class="bob" onClick="{{gToggle}}" aria-label="{{gToggleLabel}}" title="{{gToggleLabel}}" style="flex: 0 0 auto; width: 62px; height: 62px; border-radius: 50%; background: #FFFFFF; border: 3px solid #FFCD2E; box-shadow: 0 8px 20px rgba(3,3,125,.28); cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center">
+<svg width="46" height="50" viewBox="0 -8 64 72" aria-hidden="true">
+<path d="M14 6 Q32 -8 50 6" fill="none" stroke="#C8102E" stroke-width="3" stroke-linecap="round"></path>
+<path d="M16 9 Q32 -3 48 9" fill="none" stroke="#FFCD2E" stroke-width="3" stroke-linecap="round"></path>
+<path d="M18 12 Q32 2 46 12" fill="none" stroke="#255ECF" stroke-width="3" stroke-linecap="round"></path>
+<path d="M24 14 H40 V28 H56 V44 H40 V60 H24 V44 H8 V28 H24 Z" fill="#255ECF" stroke="#03037D" stroke-width="3" stroke-linejoin="round"></path>
+<circle cx="27" cy="33" r="3.6" fill="#FFFFFF"></circle><circle cx="37" cy="33" r="3.6" fill="#FFFFFF"></circle>
+<circle cx="27.8" cy="33.6" r="1.8" fill="#03037D"></circle><circle cx="37.8" cy="33.6" r="1.8" fill="#03037D"></circle>
+<path d="M26.5 40 Q32 45 37.5 40" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"></path>
+<path d="M50 38 l9 3.5 v6.5 c0 5.5 -3.8 8.5 -9 10 c-5.2 -1.5 -9 -4.5 -9 -10 v-6.5 z" fill="#FFCD2E" stroke="#03037D" stroke-width="2.4" stroke-linejoin="round"></path>
+<path d="M46 48 l3 3 l5 -5.5" fill="none" stroke="#03037D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+</div>
+</template>
+<noscript><p style="padding:24px;font-family:sans-serif">Pentru a vedea pagina, activati JavaScript in browser. Contact: nationaltesa@gmail.com, (+40) 728 294 825.</p></noscript>
+<script src="assets/preact.min.js"></script>
+<script src="assets/dc-runtime.js"></script>
+<script>
+var REPERE = [
+  { id: 'anexa', tag: 'In spitale', title: 'Anexa VII, art. 1 si 3', short: 'Trecerea personalului TESA pe anexa VII in aproape toate spitalele cu membri.', paras: [
+    'Primul pas a fost in spitale, acolo unde lucram. Am obtinut trecerea personalului TESA pe anexa VII, art. 1 si 3, in aproape toate spitalele in care avem membri.',
+    'Temeiul a fost clar: prin Decizia nr. 61/2022, obligatorie pentru toate instantele, Inalta Curte de Casatie si Justitie a stabilit ca personalul TESA din spitalele publice se salarizeaza potrivit Anexei VII.',
+    'Acolo unde colegilor li s-a refuzat acest drept, nu i-am lasat singuri: le-am oferit indrumare legala, ca sa stie ce sa ceara, pe ce temei si cui sa se adreseze.'
+  ]},
+  { id: 'lege', tag: 'Cea mai importanta realizare', title: 'Noua lege a salarizarii', short: 'Anexa II, art. 12: personalul TESA din spitale, salarizat potrivit Anexei VII.', paras: [
+    'Cand Ministerul Muncii a lansat in dezbatere publica, pe 25 mai 2026, proiectul noii legi a salarizarii, am fost pregatiti. Pe 2 iunie 2026, Uniunea Nationala a Sindicatelor TESA din Sanatate a depus amendamente argumentate pe Constitutie, pe deciziile obligatorii ale ICCJ si pe modelul deja aplicat in Justitie si Invatamant, unde personalul auxiliar face parte din aceeasi familie ocupationala cu specialistii.',
+    'Am sustinut aceste amendamente in negocieri cu ministerele si cu partidele politice si am reusit sa modificam articole din proiectul legii.',
+    'Rezultatul se regaseste in varianta din august 2026 a proiectului. In Anexa II, in capitolul dedicat personalului din sanatate, art. 12 alin. (1) prevede ca personalul din unitatile sanitare finantate integral din venituri proprii care nu ocupa functii din Anexa II, adica personalul TESA, se salarizeaza potrivit Anexei VII, la nivelul institutiilor publice finantate integral din venituri proprii din subordinea Guvernului si a ministerelor.',
+    'Astfel, personalul TESA are locul clar stabilit pe Anexa VII si, in acelasi timp, pozitia lui este recunoscuta chiar in capitolul familiei ocupationale Sanatate si asistenta sociala, Anexa II.',
+    'Din pacate, legea nu a fost adoptata, in contextul politic in care nu a existat un guvern cu mandat deplin. Pozitia castigata ramane insa a noastra si o sustinem la urmatoarele negocieri.'
+  ]},
+  { id: 'munca', tag: 'Campanie', title: 'Munca nevazuta', short: 'O campanie care a adus in lumina intreg personalul din sanatate.', paras: [
+    'Intre 12 mai si 9 iulie 2026 am derulat campania nationala „Munca nevazuta. TESA, personalul invizibil din sanatate”: o campanie despre oamenii fara de care spitalul nu functioneaza.',
+    'Am aratat ceea ce de obicei nu se vede: oamenii din birouri, din administratie si din serviciile de suport, fara de care niciun pacient nu poate fi internat, tratat sau externat.',
+    'Campania a scos la lumina intreg personalul din sanatate, nu doar o categorie.'
+  ]},
+  { id: 'proiect', tag: 'Proiect european', title: 'Dialog social eficient', short: 'Proiect pe fonduri europene, cod SMIS 350703: formare, coaching si mentorat pentru membri.', paras: [
+    'Alaturi de Confederatia Sindicala Nationala MERIDIAN si prin intermediul Uniunii Nationale a Sindicatelor TESA din Sanatate, o parte dintre membrii nostri lucreaza in proiectul european „Dialog social eficient in context national si prin conectare europeana: Confederatia Sindicala Nationala Meridian si Uniunea Nationala a Sindicatelor TESA din Sanatate, pentru un viitor incluziv si sustenabil”, cod SMIS 350703.',
+    'Alti membri au beneficiat deja de cursuri de formare, coaching si mentorat, workshopuri si ateliere de tip think-tank.',
+    'Asa ne pregatim pentru negocierile care urmeaza: cu oameni mai bine informati, mai bine organizati si conectati la practica europeana a dialogului social.',
+    'Proiect finantat din Fondul Social European Plus (FSE+) prin Programul Educatie si Ocupare 2021-2027.'
+  ]},
+  { id: 'evenimente', tag: 'Vizibilitate', title: 'Evenimente nationale si internationale', short: 'Vocea personalului TESA, dusa dincolo de spital.', paras: [
+    'Am participat la evenimente de rang national si international, unde am vorbit despre rolul celor care tin spitalele in functiune.',
+    'Am dus vocea personalului TESA pana la Reprezentanta Comisiei Europene in Romania, la masa discutiilor despre dialog social si piata muncii.',
+    'Am fost prezenti si in mass-media: secretarul general al sindicatului, Oana Toader, a reprezentat personalul TESA intr-o emisiune televizata despre pensii si salarii.'
+  ]},
+  { id: 'strada', tag: 'Solidaritate', title: 'In strada, cand a fost nevoie', short: 'Am sustinut personalul TESA ori de cate ori a fost nevoie.', paras: [
+    'Cand dialogul nu a fost de ajuns, am iesit in strada. De fiecare data cand a fost nevoie, am fost alaturi de personalul TESA.',
+    'Am facut-o impreuna cu confederatia MERIDIAN, cu care avem o relatie stransa.'
+  ]},
+  { id: 'meridian', tag: 'Afiliere', title: 'Uniunea TESA si MERIDIAN', short: 'Singura federatie dedicata in totalitate personalului TESA din sanatate.', paras: [
+    'Suntem afiliati la Uniunea Nationala a Sindicatelor TESA din Sanatate, singura federatie dedicata in totalitate personalului TESA din sanatate, si, prin intermediul ei, la Confederatia MERIDIAN.',
+    'Sustinem intotdeauna si colegii din partea medicala, pentru ca impreuna formam un mecanism care nu poate functiona separat.'
+  ]}
+];
+
+var UNITATI = [
+  { n: 'Spitalul Judetean de Urgenta Ploiesti', loc: 'Ploiesti', j: 'Prahova' },
+  { n: 'Spitalul de Pediatrie Ploiesti', loc: 'Ploiesti', j: 'Prahova' },
+  { n: 'Spitalul Municipal Campina', loc: 'Campina', j: 'Prahova' },
+  { n: 'Spitalul de Neuropsihiatrie Voila', loc: 'Campina', j: 'Prahova' },
+  { n: 'Spitalul de Boli Pulmonare Breaza', loc: 'Breaza', j: 'Prahova' },
+  { n: 'Spitalul Orasenesc Sinaia', loc: 'Sinaia', j: 'Prahova' },
+  { n: 'Spitalul de Ortopedie si Traumatologie Azuga', loc: 'Azuga', j: 'Prahova' },
+  { n: 'Spitalul Clinic de Obstetrica si Ginecologie Filantropia', loc: 'Bucuresti', j: 'Bucuresti' },
+  { n: 'Institutul National de Neurologie si Boli Neurovasculare', loc: 'Bucuresti', j: 'Bucuresti' },
+  { n: 'Spitalul Clinic de Ortopedie, Traumatologie si TBC Osteoarticular Foisor', loc: 'Bucuresti', j: 'Bucuresti' },
+  { n: 'Spitalul Orasenesc Pucioasa', loc: 'Pucioasa', j: 'Dambovita' },
+  { n: 'Spitalul Municipal Gherla', loc: 'Gherla', j: 'Cluj' },
+  { n: 'Spitalul Municipal "Dr. Pop Mircea" Marghita', loc: 'Marghita', j: 'Bihor' },
+  { n: 'Spitalul de Pneumoftiziologie Sibiu', loc: 'Sibiu', j: 'Sibiu' }
+];
+function norm(s) { return String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, ''); }
+
+var GHID_MENIU = 'Salut! Sunt Tesi. Sindicatul este scutul tau la locul de munca: cand ai o problema, nu mai esti singur. Ce te intereseaza?';
+var GHID_RASPUNS = {
+  salariu: { label: 'Salariul meu nu pare corect', t: 'Nu esti singur. Am obtinut incadrarea pe Anexa VII in aproape toate spitalele unde avem membri. Membrii primesc Kitul Anexa VII: modelul de nota de fundamentare si un coleg care ii indruma. Fa intai testul rapid.', h: '#verifica', l: 'Fa testul rapid' },
+  problema: { label: 'Am o problema la locul de munca', t: 'Ca membru, nu mai stai singur in fata unei sanctiuni, a unei modificari de contract sau a unui conflict de munca. Iti oferim consultanta si sprijin. Scrie-ne si iti raspundem.', h: 'mailto:nationaltesa@gmail.com?subject=Am%20nevoie%20de%20sprijin', l: 'Cere sprijin' },
+  contact: { label: 'Vreau sa vorbesc cu cineva', t: 'Sigur! Scrie-ne pe WhatsApp si un coleg din sindicat iti raspunde. Discutia nu te obliga la nimic.', h: 'https://wa.me/40728294825?text=Buna%20ziua!%20As%20dori%20sa%20fiu%20contactat%20de%20Sindicatul%20National%20TESA.', l: 'Scrie-ne pe WhatsApp' },
+  lege: { label: 'Ce se schimba cu noua lege?', t: 'Am negociat ca personalul TESA sa aiba locul scris clar in proiectul noii legi a salarizarii. Iti aparam pozitia la negocierile care urmeaza, iar acolo conteaza cati suntem.', h: '#rezultate', l: 'Vezi ce am obtinut' }
+};
+var GHID = [
+  { t: 'Aici vezi ce am obtinut: Anexa VII in spitale, locul TESA in noua lege si campania Munca nevazuta. Apasa pe un reper din harta ca sa citesti povestea.', h: '#rezultate', l: 'Arata-mi' },
+  { t: 'Singur sau impreuna? Vezi ce inseamna, concret, protectia pe care ti-o da sindicatul.', h: '#protectie', l: 'Arata-mi' },
+  { t: 'Nu stii daca esti incadrat corect? Raspunde la trei intrebari in testul rapid si afli pe loc.', h: '#verifica', l: 'Arata-mi' },
+  { t: 'Cat costa protectia? Scrie salariul tau brut si iti calculez cotizatia. Inscrierea are doar trei pasi.', h: '#membru', l: 'Arata-mi' },
+  { t: 'Ai intrebari inainte sa te inscrii? Le-am adunat pe cele mai frecvente, cu raspunsuri scurte.', h: '#intrebari', l: 'Arata-mi' },
+  { t: 'Singur esti un angajat. Impreuna suntem 208 colegi din 14 unitati sanitare. Te asteptam alaturi de noi!', h: '#contact', l: 'Date de contact' }
+];
+
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { open: false, picked: 'lege', salary: '6000', q1: null, q2: null, q3: null, light: 0, n1: 208, n2: 14, guideOpen: true, gMode: 'menu', gAns: null, gStep: 0, fNume: '', fContact: '', fUnitate: '', fSubiect: 'Inscrierea in sindicat', fInterval: 'Oricand', fAcord: false, uQuery: '', uJudet: 'Toate', tIdx: 0 };
+  }
+  componentDidMount() {
+    var self = this;
+    try { if (window.innerWidth < 720) this.setState({ guideOpen: false }); } catch (e) {}
+    var reduce = false;
+    try { reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
+    if (reduce || typeof requestAnimationFrame !== 'function') return;
+    var start = null, dur = 1400;
+    this.setState({ n1: 0, n2: 0 });
+    function step(t) {
+      if (start === null) start = t;
+      var p = Math.min(1, (t - start) / dur);
+      var e = 1 - Math.pow(1 - p, 3);
+      self.setState({ n1: Math.round(208 * e), n2: Math.round(14 * e) });
+      if (p < 1) self._raf = requestAnimationFrame(step);
+    }
+    this._raf = requestAnimationFrame(step);
+  }
+  componentWillUnmount() {
+    if (this._raf) cancelAnimationFrame(this._raf);
+  }
+  opts(key, list) {
+    var self = this, cur = this.state[key];
+    return list.map(function (o) {
+      var on = cur === o[0];
+      return {
+        label: o[1], pressed: on ? 'true' : 'false',
+        bg: on ? '#255ECF' : '#FFFFFF', fg: on ? '#FFFFFF' : '#255ECF',
+        pick: function () {
+          var s = {}; s[key] = o[0];
+          if (key === 'q1') { s.q2 = null; s.q3 = null; }
+          if (key === 'q2') { s.q3 = null; }
+          self.setState(s);
+        }
+      };
+    });
+  }
+  renderVals() {
+    var self = this;
+    var picked = this.state.picked;
+    var nodes = REPERE.map(function (r) {
+      var on = r.id === picked;
+      return {
+        tag: r.tag, title: r.title, short: r.short,
+        pressed: on ? 'true' : 'false',
+        bg: on ? '#255ECF' : '#FFFFFF',
+        fg: on ? '#FFFFFF' : '#03037D',
+        border: on ? '#255ECF' : '#A9C1EF',
+        tagColor: on ? '#FFE38A' : '#C8102E',
+        subColor: on ? '#E3F1FB' : '#4B5B6B',
+        pick: function () { self.setState({ picked: r.id }); }
+      };
+    });
+    var cur = REPERE.filter(function (r) { return r.id === picked; })[0] || REPERE[1];
+    var st = this.state;
+    var sal = parseFloat(String(st.salary).replace(',', '.'));
+    var cot = isFinite(sal) && sal > 0 ? (Math.round(sal * 0.5) / 100) : 0;
+    var cotTxt = cot.toFixed(2).replace('.', ',').replace(',00', '');
+    var light = st.light;
+    var go = function (n) { return function () { self.setState({ light: n }); }; };
+    var gs = st.gStep, gLast = GHID.length - 1, mode = st.gMode;
+    var gCur = mode === 'tour' ? GHID[gs] : (mode === 'ans' ? GHID_RASPUNS[st.gAns] : { t: GHID_MENIU, h: '', l: '' });
+    var choices = ['salariu', 'problema', 'lege'].map(function (k) {
+      return { label: GHID_RASPUNS[k].label, pick: function () { self.setState({ gMode: 'ans', gAns: k }); } };
+    });
+    choices.push({ label: 'Vreau sa vorbesc cu cineva', pick: function () { self.setState({ gMode: 'ans', gAns: 'contact' }); } });
+    choices.push({ label: 'Arata-mi pagina pas cu pas', pick: function () { self.setState({ gMode: 'tour', gStep: 0 }); } });
+    var set = function (k) { return function (e) { var s = {}; s[k] = e.target.value; self.setState(s); }; };
+    var fValid = st.fNume.trim().length > 1 && st.fContact.trim().length > 4 && st.fAcord;
+    var body = 'Buna ziua,\n\nAs dori sa fiu contactat de Sindicatul National TESA.\n\n' +
+      'Nume: ' + st.fNume.trim() + '\n' +
+      'Telefon / email: ' + st.fContact.trim() + '\n' +
+      'Unitatea sanitara: ' + (st.fUnitate.trim() || '-') + '\n' +
+      'Subiect: ' + st.fSubiect + '\n' +
+      'Interval preferat: ' + st.fInterval + '\n\n' +
+      'Sunt de acord sa fiu contactat si am citit Politica de confidentialitate.\n\nMultumesc!';
+    var fMailto = 'mailto:nationaltesa@gmail.com?subject=' + encodeURIComponent('Vreau sa fiu contactat - ' + st.fSubiect) + '&body=' + encodeURIComponent(body);
+    var q = norm(st.uQuery.trim());
+    var uList = UNITATI.filter(function (u) {
+      if (st.uJudet !== 'Toate' && u.j !== st.uJudet) return false;
+      if (!q) return true;
+      return norm(u.n + ' ' + u.loc + ' ' + u.j).indexOf(q) !== -1;
+    }).map(function (u) { return { n: u.n, loc: u.loc === u.j ? u.loc : u.loc + ', judetul ' + u.j }; });
+    var judete = ['Toate', 'Prahova', 'Bucuresti', 'Bihor', 'Cluj', 'Dambovita', 'Sibiu'];
+    var uChips = judete.map(function (jd) {
+      var on = st.uJudet === jd;
+      var cnt = jd === 'Toate' ? UNITATI.length : UNITATI.filter(function (u) { return u.j === jd; }).length;
+      return { label: jd + ' (' + cnt + ')', pressed: on ? 'true' : 'false', bg: on ? '#255ECF' : '#FFFFFF', fg: on ? '#FFFFFF' : '#255ECF', pick: function () { self.setState({ uJudet: jd }); } };
+    });
+    var tN = 5, ti = st.tIdx;
+    return {
+      t0: ti === 0, t1: ti === 1, t2: ti === 2, t3: ti === 3, t4: ti === 4,
+      tPrev: function () { self.setState({ tIdx: (ti + tN - 1) % tN }); },
+      tNext: function () { self.setState({ tIdx: (ti + 1) % tN }); },
+      tDots: [0, 1, 2, 3, 4].map(function (i) { return { c: i === ti ? '#FFCD2E' : 'rgba(255,255,255,.4)' }; }),
+      tCount: (ti + 1) + ' / ' + tN,
+      uQuery: st.uQuery, onUQuery: function (e) { self.setState({ uQuery: e.target.value }); },
+      uChips: uChips, uList: uList, uEmpty: uList.length === 0, uNotEmpty: uList.length > 0,
+      fNume: st.fNume, fContact: st.fContact, fUnitate: st.fUnitate, fSubiect: st.fSubiect, fInterval: st.fInterval, fAcord: st.fAcord,
+      onNume: set('fNume'), onContact: set('fContact'), onUnitate: set('fUnitate'), onSubiect: set('fSubiect'), onInterval: set('fInterval'),
+      onAcord: function (e) { self.setState({ fAcord: e.target.checked }); },
+      fValid: fValid, fInvalid: !fValid, fMailto: fMailto,
+      fSubmit: function (e) { e.preventDefault(); if (fValid) { try { window.location.href = fMailto; } catch (x) {} } },
+      guideOpen: st.guideOpen,
+      gShowTeaser: !st.guideOpen,
+      gIsMenu: mode === 'menu', gIsTour: mode === 'tour', gIsAns: mode === 'ans',
+      gHeader: mode === 'tour' ? ('Tesi · pasul ' + (gs + 1) + ' din ' + GHID.length) : 'Tesi · ghidul tau',
+      gChoices: choices,
+      gText: gCur.t,
+      gHasLink: !!gCur.h,
+      gHref: gCur.h || '#',
+      gLinkLabel: gCur.l || 'Arata-mi',
+      gGo: function () {
+        if (gCur.h === '#rezultate') self.setState({ open: true, picked: mode === 'ans' ? 'lege' : st.picked });
+      },
+      gShowJoin: mode !== 'tour' || gs === gLast,
+      gBack: function () { self.setState({ gMode: 'menu', gAns: null }); },
+      gPrev: function () { if (gs > 0) self.setState({ gStep: gs - 1 }); else self.setState({ gMode: 'menu' }); },
+      gNext: function () { if (gs < gLast) self.setState({ gStep: gs + 1 }); else self.setState({ gMode: 'menu', gStep: 0 }); },
+      gNextLabel: gs === gLast ? 'La inceput' : 'Urmatorul',
+      gDots: GHID.map(function (x, i) { return { c: i === gs ? '#255ECF' : '#EFE2CC' }; }),
+      gClose: function () { self.setState({ guideOpen: false }); },
+      gToggle: function () { self.setState({ guideOpen: !st.guideOpen }); },
+      gToggleLabel: st.guideOpen ? 'Ascunde ghidul' : 'Deschide ghidul Tesi',
+      n1: st.n1, n2: st.n2,
+      salary: st.salary,
+      cotizatie: cotTxt,
+      onSalary: function (e) { self.setState({ salary: e.target.value }); },
+      q1Opts: this.opts('q1', [['da', 'Da'], ['nu', 'Nu']]),
+      q2Opts: this.opts('q2', [['da', 'Da'], ['nu', 'Nu']]),
+      q3Opts: this.opts('q3', [['da', 'Da'], ['nu', 'Nu'], ['ns', 'Nu stiu']]),
+      showQ2: st.q1 === 'da',
+      showQ3: st.q1 === 'da' && st.q2 === 'da',
+      resAltii: st.q1 === 'nu' || st.q2 === 'nu',
+      resDa: st.q3 === 'da',
+      resNu: st.q3 === 'nu',
+      resNs: st.q3 === 'ns',
+      anyAnswer: st.q1 !== null,
+      resetQuiz: function () { self.setState({ q1: null, q2: null, q3: null }); },
+      lightOpen: light > 0,
+      g1: light === 1, g2: light === 2, g3: light === 3, g4: light === 4, g5: light === 5,
+      openG1: go(1), openG2: go(2), openG3: go(3), openG4: go(4), openG5: go(5),
+      closeG: go(0),
+      nextG: function () { self.setState({ light: light >= 5 ? 1 : light + 1 }); },
+      prevG: function () { self.setState({ light: light <= 1 ? 5 : light - 1 }); },
+      accent: this.props.accent ?? '#255ECF',
+      fundal: this.props.fundal ?? '#FFF9EF',
+      open: this.state.open,
+      closed: !this.state.open,
+      openMap: function () { self.setState({ open: true }); },
+      openAnexa: function () { self.setState({ open: true, picked: 'anexa' }); },
+      openLege: function () { self.setState({ open: true, picked: 'lege' }); },
+      openMunca: function () { self.setState({ open: true, picked: 'munca' }); },
+      topNodes: nodes.slice(0, 4),
+      bottomNodes: nodes.slice(4),
+      current: { isProject: cur.id === 'proiect', isMunca: cur.id === 'munca', isStrada: cur.id === 'strada', isMeridian: cur.id === 'meridian', isEvenimente: cur.id === 'evenimente', tag: cur.tag, title: cur.title, paras: cur.paras.map(function (t) { return { text: t }; }) }
+    };
+  }
+}
+mountDC(Component, {"fundal": "#FFF9EF", "accent": "#255ECF"});
+</script>
+</body>
+</html>

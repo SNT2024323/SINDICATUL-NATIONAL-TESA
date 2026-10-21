@@ -37,6 +37,7 @@ a.btn[href="#membru"]{background:#C8102E !important;color:#FFFFFF !important}
 section[aria-label="Pe scurt"] [style*="Source Serif"]{color:#C8102E !important}
 h2[style*="font-size: 40px"]::after{content:"";display:block;width:64px;height:5px;background:#C8102E;margin-top:14px;border-radius:3px}
 @media (max-width: 640px){
+.snt-brand{font-size:52px !important;padding:12px 26px 12px 32px !important}
 [style*="font-size: 56px"]{font-size:36px !important}
 [style*="font-size: 48px"]{font-size:32px !important}
 [style*="font-size: 44px"]{font-size:32px !important}
@@ -80,12 +81,13 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 </div>
 <div style="position: relative; max-width: 1180px; margin: 0 auto; padding: 80px 24px 96px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
 <div style="flex: 999 1 520px; min-width: 0">
-<div class="rise1" style="display: inline-block; font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; color: #03037D; background: #C3B1F5; border-radius: 999px; padding: 6px 14px; font-weight: 600; margin-bottom: 22px">Sindicatul National TESA · personal din sanatate</div>
+<div class="rise1 snt-brand" style="display: inline-block; font-family: 'Source Serif 4', Georgia, serif; font-size: 72px; line-height: 1; letter-spacing: 0.12em; color: #03037D; background: #C3B1F5; border-radius: 22px; padding: 14px 34px 14px 42px; font-weight: 700; margin-bottom: 30px; box-shadow: 8px 8px 0 #C8102E">SNT</div>
 <h1 class="rise2" style="font-family: 'Source Serif 4', Georgia, serif; font-weight: 700; font-size: 56px; line-height: 1.06; margin: 0 0 24px; color: #FFFFFF">Am obtinut incadrarea pe <span style="color: #D9CCFF">Anexa VII</span> in aproape toate spitalele unde avem membri.</h1>
 <p class="rise3" style="font-size: 20px; margin: 0 0 36px; color: #EEF2FD; max-width: 640px">Suntem vocea personalului TESA si auxiliar din spitale: negociem cu ministerele, te indrumam cand ti se refuza un drept si nu te lasam singur. Ti s-a refuzat incadrarea corecta? Scrie-ne.</p>
 <div class="rise4" style="display: flex; flex-wrap: wrap; gap: 14px">
 <a class="btn" href="#membru" style="background: #6B4FD8; color: #FFFFFF; text-decoration: none; padding: 16px 30px; border-radius: 999px; font-weight: 700; font-size: 18px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Devino membru</a>
 <a class="btn" href="#rezultate" onClick="{{openMap}}" style="background: #FFFFFF; color: #03037D; text-decoration: none; padding: 16px 30px; border-radius: 999px; font-weight: 600; font-size: 18px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Vezi ce am obtinut</a>
+<a class="btn" href="#ajuta" style="background: transparent; color: #FFFFFF; border: 2px solid #FFFFFF; text-decoration: none; padding: 14px 28px; border-radius: 999px; font-weight: 600; font-size: 18px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Vreau sa ajut</a>
 </div>
 </div>
 <div class="rise3" style="flex: 1 1 380px; min-width: 0; position: relative; padding: 0 0 56px 0">
@@ -102,7 +104,6 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 
 <section aria-label="Pe scurt" style="background: #C3B1F5">
 <div style="max-width: 1180px; margin: 0 auto; padding: 28px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px 32px">
-<div style="display: flex; align-items: baseline; gap: 12px"><span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 48px; font-weight: 700; color: #03037D; line-height: 1; font-variant-numeric: tabular-nums">{{n1}}</span><span style="color: #03037D; font-weight: 500">membri in unitati sanitare</span></div>
 <div style="display: flex; align-items: baseline; gap: 12px"><span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 48px; font-weight: 700; color: #03037D; line-height: 1; font-variant-numeric: tabular-nums">{{n2}}</span><span style="color: #03037D; font-weight: 500">unitati sanitare din 6 judete</span></div>
 <div style="display: flex; align-items: baseline; gap: 12px"><span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 48px; font-weight: 700; color: #03037D; line-height: 1">2024</span><span style="color: #03037D; font-weight: 500">anul infiintarii</span></div>
 </div>
@@ -117,7 +118,11 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 </div>
 <div style="flex: 999 1 560px; min-width: 0; font-size: 18px">
 <p style="margin: 0 0 18px">Sindicatul National TESA reprezinta economistii, juristii, informaticienii, personalul administrativ si auxiliar din unitatile sanitare publice: colegii fara de care un spital nu poate functiona, dar care sunt prea des uitati in legile de salarizare.</p>
-<p style="margin: 0 0 18px">Suntem afiliati la Uniunea Nationala a Sindicatelor TESA din Sanatate, singura federatie dedicata in totalitate personalului TESA din sanatate, si, prin intermediul ei, la Confederatia MERIDIAN. Prin federatie si confederatie, participam la dialogul social la nivel national.</p>
+<p style="margin: 0 0 18px">Suntem afiliati la <a href="https://www.uniuneatesa.org/" target="_blank" rel="noopener" style="color: inherit">Uniunea Nationala a Sindicatelor TESA din Sanatate</a>, singura federatie dedicata in totalitate personalului TESA din sanatate, si, prin intermediul ei, la <a href="https://csnmeridian.ro/" target="_blank" rel="noopener" style="color: inherit">Confederatia MERIDIAN</a>. Prin federatie si confederatie, participam la dialogul social la nivel national.</p>
+<div style="margin: 0 0 22px; padding: 20px 24px; background: #FFFFFF; border-left: 5px solid #C8102E; border-radius: 12px; box-shadow: 0 6px 18px rgba(3,3,125,.08)">
+<div style="font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; font-weight: 700; color: #03037D; margin-bottom: 6px">Vocea noastra ajunge si in Europa</div>
+<p style="margin: 0; font-size: 17px"><a href="https://csnmeridian.ro/" target="_blank" rel="noopener" style="color: #255ECF; font-weight: 600">MERIDIAN</a> este membra a Confederatiei Europene a Sindicatelor Independente (CESI), este reprezentata in Comitetul Economic si Social European si participa anual la Conferinta Internationala a Muncii de la Geneva. Astfel, problemele personalului TESA pot ajunge si acolo unde se decide la nivel european.</p>
+</div>
 <p style="margin: 0; color: #4B5B6B">Infiintat in 2024 · Presedinte: Chifor Valentin Liviu · Secretar general: Oana Toader · Sediul: Bucuresti, sector 6</p>
 </div>
 </section>
@@ -321,7 +326,7 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 <sc-if value="{{current.isProject}}" hint-placeholder-val="{{false}}">
 <div style="margin: 8px 0 20px; display: inline-flex; align-items: center; gap: 14px; padding: 14px 18px; background: #FFFFFF; border: 1px solid #E3E8F0; border-radius: 8px">
 <svg width="72" height="48" viewBox="0 0 60 40" role="img" aria-label="Emblema Uniunii Europene"><rect width="60" height="40" fill="#003399"></rect><g fill="#FFCC00"><polygon transform="translate(30 6.67) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(36.67 8.45) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(41.55 13.33) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(43.33 20) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(41.55 26.67) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(36.67 31.55) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(30 33.33) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(23.33 31.55) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(18.45 26.67) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(16.67 20) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(18.45 13.33) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon><polygon transform="translate(23.33 8.45) scale(2.222)" points="0,-1 0.2245,-0.309 0.9511,-0.309 0.3633,0.118 0.5878,0.809 0,0.382 -0.5878,0.809 -0.3633,0.118 -0.9511,-0.309 -0.2245,-0.309"></polygon></g></svg>
-<div style="font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 18px; line-height: 1.2; color: #003399"><div>Finantat de</div><div>Uniunea Europeana</div></div>
+<div style="font-family: Arial, Helvetica, sans-serif; font-weight: 700; font-size: 18px; line-height: 1.2; color: #003399"><div>Cofinantat de</div><div>Uniunea Europeana</div></div>
 </div>
 </sc-if>
 <p style="margin: 8px 0 0; font-size: 15px; color: #4B5B6B">Alege alt reper din harta pentru a citi continuarea.</p>
@@ -537,7 +542,7 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 <div style="font-size: 14px; color: #4B5B6B; margin-bottom: 6px">Cotizatia ta lunara</div>
 <div style="font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; font-weight: 700; color: #255ECF; line-height: 1">{{cotizatie}} lei<span style="font-family: 'Work Sans', system-ui, sans-serif; font-size: 17px; font-weight: 500; color: #4B5B6B"> / luna</span></div>
 </div>
-<p style="margin: 0; flex: 999 1 100%; color: #1C2B3A">Cotizatia este de 0,5% din salariul brut si se retine direct pe statul de plata, fara drumuri si fara plati separate.</p>
+<p style="margin: 0; flex: 999 1 100%; color: #1C2B3A">Cotizatia este de 0,6% din salariul brut si se retine direct pe statul de plata, fara drumuri si fara plati separate.</p>
 </div>
 <p style="margin: 0; font-size: 16px; color: #03037D">Datele din cerere sunt prelucrate exclusiv in scopul evidentei membrilor, conform <a href="confidentialitate.html" style="color: #03037D">Politicii de confidentialitate</a>.</p>
 </div>
@@ -590,7 +595,7 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 </details>
 <details style="background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 18px 22px">
 <summary style="cursor: pointer; font-weight: 600; color: #03037D; font-size: 18px">Cat ma costa?</summary>
-<p style="margin: 12px 0 0">Cotizatia este de 0,5% din salariul brut, retinuta lunar pe statul de plata. La un salariu brut de 6.000 lei, inseamna 30 lei pe luna.</p>
+<p style="margin: 12px 0 0">Cotizatia este de 0,6% din salariul brut, retinuta lunar pe statul de plata. La un salariu brut de 6.000 lei, inseamna 36 lei pe luna.</p>
 </details>
 <details style="background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 18px 22px">
 <summary style="cursor: pointer; font-weight: 600; color: #03037D; font-size: 18px">Daca ma razgandesc, ma pot retrage?</summary>
@@ -612,7 +617,29 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 <a href="https://mmuncii.gov.ro/ministerul-muncii-familiei-tineretului-si-solidaritatii-sociale-publica-proiectul-legii-salarizarii-pentru-personalul-platit-din-fonduri-publice-respectiv-grilele-de-salarizare-si-calendarul-de-imp/" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 20px 22px; text-decoration: none; color: #1C2B3A; font-weight: 500; min-height: 44px">Proiectul Legii salarizarii, varianta august 2026 (TESA: Anexa II, art. 12)<span style="color: #255ECF; font-weight: 600">Deschide</span></a>
 <a href="https://legislatie.just.ro/Public/DetaliiDocument/227318" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 20px 22px; text-decoration: none; color: #1C2B3A; font-weight: 500; min-height: 44px">Legea nr. 153/2017 - salarizare<span style="color: #255ECF; font-weight: 600">Deschide</span></a>
 <a href="https://www.inspectiamuncii.ro/documents/558066/4544318/LEGE+nr+367+din+2022.pdf/5285ef2a-e949-4ea3-bb47-fbcfbc218166" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #FFFFFF; border: 1px solid #EFE2CC; border-radius: 12px; padding: 20px 22px; text-decoration: none; color: #1C2B3A; font-weight: 500; min-height: 44px">Legea nr. 367/2022 - dialog social<span style="color: #255ECF; font-weight: 600">Deschide</span></a>
-<a href="mailto:nationaltesa@gmail.com?subject=Solicitare%20ajutor%20-%20membru%20TESA" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #6B4FD8; border: 1px solid #6B4FD8; border-radius: 12px; padding: 20px 22px; text-decoration: none; color: #FFFFFF; font-weight: 600; min-height: 44px">Ai nevoie de ajutor sau de un document? Scrie-ne<span style="color: #03037D; font-weight: 700">Solicita</span></a>
+<a href="mailto:nationaltesa@gmail.com?subject=Solicitare%20ajutor%20-%20membru%20TESA" style="display: flex; align-items: center; justify-content: space-between; gap: 12px; background: #6B4FD8; border: 1px solid #6B4FD8; border-radius: 12px; padding: 20px 22px; text-decoration: none; color: #FFFFFF; font-weight: 600; min-height: 44px">Ai nevoie de ajutor sau de un document? Scrie-ne<span style="color: #D9CCFF; font-weight: 700">Solicita</span></a>
+</div>
+</section>
+
+<section id="ajuta" style="background: #255ECF; color: #FFFFFF">
+<div style="max-width: 1180px; margin: 0 auto; padding: 88px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start">
+<div style="flex: 1 1 420px; min-width: 0">
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #D9CCFF; font-weight: 600; margin-bottom: 12px">Implica-te</div>
+<h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 20px; color: #FFFFFF">Pune-ti priceperea in slujba colegilor</h2>
+<p style="margin: 0 0 16px; font-size: 19px; color: #EEF2FD">Fiecare dintre noi stie sa faca ceva bine. Spune-ne cum ne poti ajuta si te chemam cand e nevoie de tine.</p>
+<p style="margin: 0 0 28px; color: #DCE6FB">Nu trebuie sa fii membru in conducere si nici sa ai mult timp liber. Cateva ore pe an, la momentul potrivit, pot schimba rezultatul unei negocieri, al unei campanii sau al unui proiect.</p>
+<ol style="margin: 0 0 32px; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 14px">
+<li style="display: flex; gap: 14px; align-items: flex-start"><span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #C3B1F5; color: #03037D; font-weight: 700; display: flex; align-items: center; justify-content: center">1</span><span><strong>Completezi formularul</strong> - dureaza cam 2 minute.</span></li>
+<li style="display: flex; gap: 14px; align-items: flex-start"><span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #C3B1F5; color: #03037D; font-weight: 700; display: flex; align-items: center; justify-content: center">2</span><span><strong>Iti notam competentele</strong> si cat timp ai la dispozitie.</span></li>
+<li style="display: flex; gap: 14px; align-items: flex-start"><span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #C3B1F5; color: #03037D; font-weight: 700; display: flex; align-items: center; justify-content: center">3</span><span><strong>Te contactam</strong> doar atunci cand o actiune are nevoie de ce stii tu sa faci.</span></li>
+</ol>
+<a class="btn" href="https://forms.gle/EqSAXpEHJSEcxMKXA" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 48px; box-sizing: border-box; background: #C8102E; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; padding: 14px 32px; border-radius: 999px">Vreau sa ajut</a>
+<p style="margin: 18px 0 0; font-size: 14px; color: #DCE6FB">Datele trimise sunt folosite doar pentru a te contacta in legatura cu actiunile sindicatului, conform <a href="confidentialitate.html" style="color: #FFFFFF">Politicii de confidentialitate</a>.</p>
+</div>
+<div style="flex: 1 1 380px; min-width: 0; background: rgba(3,3,125,.35); border-radius: 20px; padding: 32px">
+<div style="font-family: 'Source Serif 4', Georgia, serif; font-size: 24px; font-weight: 700; margin-bottom: 18px">Avem nevoie de oameni care se pricep la:</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px"><span style="background: #FFFFFF; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 500">Juridic si legislatie</span><span style="background: #FFFFFF; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 500">Salarizare si resurse umane</span><span style="background: #FFFFFF; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 500">Achizitii publice</span><span style="background: #FFFFFF; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 500">Economic si contabilitate</span><span style="background: #FFFFFF; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 500">IT si calculatoare</span><span style="background: #FFFFFF; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 500">Comunicare si social media</span><span style="background: #FFFFFF; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 500">Foto, video, design</span><span style="background: #FFFFFF; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 500">Proiecte si fonduri europene</span><span style="background: #FFFFFF; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 500">Limbi straine</span><span style="background: #FFFFFF; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 500">Organizare de evenimente</span><span style="background: #FFFFFF; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 500">Negociere si relatia cu presa</span><span style="background: #C3B1F5; color: #03037D; border-radius: 999px; padding: 8px 16px; font-size: 15px; font-weight: 600">... si orice altceva stii sa faci</span></div>
+</div>
 </div>
 </section>
 
@@ -655,7 +682,7 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 </div>
 <div style="border-top: 1px solid #2323A0">
 <div style="max-width: 1180px; margin: 0 auto; padding: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; font-size: 14px; color: #C9CDF2">
-<div>© 2026 Sindicatul National TESA</div>
+<div>© 2026 Sindicatul National TESA · Afiliati la: <a href="https://www.uniuneatesa.org/" target="_blank" rel="noopener" style="color: #C9CDF2">Uniunea Nationala a Sindicatelor TESA din Sanatate</a> · <a href="https://csnmeridian.ro/" target="_blank" rel="noopener" style="color: #C9CDF2">CSN MERIDIAN</a></div>
 <a href="confidentialitate.html" style="color: #C9CDF2">Politica de confidentialitate</a>
 </div>
 </div>
@@ -742,7 +769,7 @@ var REPERE = [
     'Alaturi de Confederatia Sindicala Nationala MERIDIAN si prin intermediul Uniunii Nationale a Sindicatelor TESA din Sanatate, o parte dintre membrii nostri lucreaza in proiectul european „Dialog social eficient in context national si prin conectare europeana: Confederatia Sindicala Nationala Meridian si Uniunea Nationala a Sindicatelor TESA din Sanatate, pentru un viitor incluziv si sustenabil”, cod SMIS 350703.',
     'Alti membri au beneficiat deja de cursuri de formare, coaching si mentorat, workshopuri si ateliere de tip think-tank.',
     'Asa ne pregatim pentru negocierile care urmeaza: cu oameni mai bine informati, mai bine organizati si conectati la practica europeana a dialogului social.',
-    'Proiect finantat din Fondul Social European Plus (FSE+) prin Programul Educatie si Ocupare 2021-2027.'
+    'Proiect cofinantat din Fondul Social European Plus (FSE+) prin Programul Educatie si Ocupare 2021-2027.'
   ]},
   { id: 'evenimente', tag: 'Vizibilitate', title: 'Evenimente nationale si internationale', short: 'Vocea personalului TESA, dusa dincolo de spital.', paras: [
     'Am participat la evenimente de rang national si international, unde am vorbit despre rolul celor care tin spitalele in functiune.',
@@ -790,7 +817,7 @@ var GHID = [
   { t: 'Nu stii daca esti incadrat corect? Raspunde la trei intrebari in testul rapid si afli pe loc.', h: '#verifica', l: 'Arata-mi' },
   { t: 'Cat costa protectia? Scrie salariul tau brut si iti calculez cotizatia. Inscrierea are doar trei pasi.', h: '#membru', l: 'Arata-mi' },
   { t: 'Ai intrebari inainte sa te inscrii? Le-am adunat pe cele mai frecvente, cu raspunsuri scurte.', h: '#intrebari', l: 'Arata-mi' },
-  { t: 'Singur esti un angajat. Impreuna suntem 208 colegi din 14 unitati sanitare. Te asteptam alaturi de noi!', h: '#contact', l: 'Date de contact' }
+  { t: 'Singur esti un angajat. Impreuna suntem colegi din 14 unitati sanitare. Te asteptam alaturi de noi!', h: '#contact', l: 'Date de contact' }
 ];
 
 class Component extends DCLogic {
@@ -805,12 +832,12 @@ class Component extends DCLogic {
     try { reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (e) {}
     if (reduce || typeof requestAnimationFrame !== 'function') return;
     var start = null, dur = 1400;
-    this.setState({ n1: 0, n2: 0 });
+    this.setState({ n2: 0 });
     function step(t) {
       if (start === null) start = t;
       var p = Math.min(1, (t - start) / dur);
       var e = 1 - Math.pow(1 - p, 3);
-      self.setState({ n1: Math.round(208 * e), n2: Math.round(14 * e) });
+      self.setState({ n2: Math.round(14 * e) });
       if (p < 1) self._raf = requestAnimationFrame(step);
     }
     this._raf = requestAnimationFrame(step);
@@ -853,7 +880,7 @@ class Component extends DCLogic {
     var cur = REPERE.filter(function (r) { return r.id === picked; })[0] || REPERE[1];
     var st = this.state;
     var sal = parseFloat(String(st.salary).replace(',', '.'));
-    var cot = isFinite(sal) && sal > 0 ? (Math.round(sal * 0.5) / 100) : 0;
+    var cot = isFinite(sal) && sal > 0 ? (Math.round(sal * 0.6) / 100) : 0;
     var cotTxt = cot.toFixed(2).replace('.', ',').replace(',00', '');
     var light = st.light;
     var go = function (n) { return function () { self.setState({ light: n }); }; };

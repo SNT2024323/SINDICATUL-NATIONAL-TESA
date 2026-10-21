@@ -32,6 +32,8 @@ a{color:#255ECF}a:hover{color:#094F8E}
 .rise4{animation:rise .9s .45s ease both}
 @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
 .bob{animation:bob 2.8s ease-in-out infinite}
+@keyframes chem{0%,100%{box-shadow:0 0 0 0 rgba(195,177,245,.7)}50%{box-shadow:0 0 0 10px rgba(195,177,245,0)}}
+.echipa{animation:chem 2.4s ease-in-out infinite}
 /* accente rosii */
 a.btn[href="#membru"]{background:#C8102E !important;color:#FFFFFF !important}
 section[aria-label="Pe scurt"] [style*="Source Serif"]{color:#C8102E !important}
@@ -46,7 +48,7 @@ h2[style*="font-size: 40px"]::after{content:"";display:block;width:64px;height:5
 blockquote[style*="font-size: 28px"]{font-size:20px !important}
 nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !important}
 }
-@media (prefers-reduced-motion: reduce){.rise1,.rise2,.rise3,.rise4,.bob{animation:none}.lift,.zoom img,.btn{transition:none}}
+@media (prefers-reduced-motion: reduce){.rise1,.rise2,.rise3,.rise4,.bob,.echipa{animation:none}.lift,.zoom img,.btn{transition:none}}
 </style>
 </head>
 <body>
@@ -87,7 +89,7 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 <div class="rise4" style="display: flex; flex-wrap: wrap; gap: 14px">
 <a class="btn" href="#membru" style="background: #6B4FD8; color: #FFFFFF; text-decoration: none; padding: 16px 30px; border-radius: 999px; font-weight: 700; font-size: 18px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Devino membru</a>
 <a class="btn" href="#rezultate" onClick="{{openMap}}" style="background: #FFFFFF; color: #03037D; text-decoration: none; padding: 16px 30px; border-radius: 999px; font-weight: 600; font-size: 18px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Vezi ce am obtinut</a>
-<a class="btn" href="#ajuta" style="background: transparent; color: #FFFFFF; border: 2px solid #FFFFFF; text-decoration: none; padding: 14px 28px; border-radius: 999px; font-weight: 600; font-size: 18px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Vreau sa ajut</a>
+<a class="btn echipa" href="#ajuta" style="position: relative; background: #C3B1F5; color: #03037D; text-decoration: none; padding: 14px 26px 14px 22px; border-radius: 999px; font-weight: 700; font-size: 18px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center; gap: 10px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"></circle><path d="M3 19c.6-3.2 3-5 6-5s5.4 1.8 6 5"></path><path d="M17 7v6M14 10h6"></path></svg>Cautam colegi de echipa<span style="position: absolute; top: -10px; right: -6px; background: #C8102E; color: #FFFFFF; font-size: 11px; letter-spacing: 0.08em; font-weight: 700; padding: 3px 8px; border-radius: 999px; white-space: nowrap">VREAU SA AJUT</span></a>
 </div>
 </div>
 <div class="rise3" style="flex: 1 1 380px; min-width: 0; position: relative; padding: 0 0 56px 0">
@@ -121,7 +123,7 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 <p style="margin: 0 0 18px">Suntem afiliati la <a href="https://www.uniuneatesa.org/" target="_blank" rel="noopener" style="color: inherit">Uniunea Nationala a Sindicatelor TESA din Sanatate</a>, singura federatie dedicata in totalitate personalului TESA din sanatate, si, prin intermediul ei, la <a href="https://csnmeridian.ro/" target="_blank" rel="noopener" style="color: inherit">Confederatia MERIDIAN</a>. Prin federatie si confederatie, participam la dialogul social la nivel national.</p>
 <div style="margin: 0 0 22px; padding: 20px 24px; background: #FFFFFF; border-left: 5px solid #C8102E; border-radius: 12px; box-shadow: 0 6px 18px rgba(3,3,125,.08)">
 <div style="font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; font-weight: 700; color: #03037D; margin-bottom: 6px">Vocea noastra ajunge si in Europa</div>
-<p style="margin: 0; font-size: 17px"><a href="https://csnmeridian.ro/" target="_blank" rel="noopener" style="color: #255ECF; font-weight: 600">MERIDIAN</a> este membra a Confederatiei Europene a Sindicatelor Independente (CESI), este reprezentata in Comitetul Economic si Social European si participa anual la Conferinta Internationala a Muncii de la Geneva. Astfel, problemele personalului TESA pot ajunge si acolo unde se decide la nivel european.</p>
+<p style="margin: 0; font-size: 17px"><a href="https://csnmeridian.ro/" target="_blank" rel="noopener" style="color: #255ECF; font-weight: 600">MERIDIAN</a> este membra a <a href="https://www.cesi.org/" target="_blank" rel="noopener" style="color: #255ECF; font-weight: 600">Confederatiei Europene a Sindicatelor Independente (CESI)</a>, este reprezentata in Comitetul Economic si Social European si participa anual la Conferinta Internationala a Muncii de la Geneva. Astfel, problemele personalului TESA pot ajunge si acolo unde se decide la nivel european.</p>
 </div>
 <p style="margin: 0; color: #4B5B6B">Infiintat in 2024 · Presedinte: Chifor Valentin Liviu · Secretar general: Oana Toader · Sediul: Bucuresti, sector 6</p>
 </div>
@@ -624,7 +626,7 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 <section id="ajuta" style="background: #255ECF; color: #FFFFFF">
 <div style="max-width: 1180px; margin: 0 auto; padding: 88px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start">
 <div style="flex: 1 1 420px; min-width: 0">
-<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #D9CCFF; font-weight: 600; margin-bottom: 12px">Implica-te</div>
+<div style="font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase; color: #D9CCFF; font-weight: 600; margin-bottom: 12px">Cautam colegi de echipa</div>
 <h2 style="font-family: 'Source Serif 4', Georgia, serif; font-size: 40px; line-height: 1.15; margin: 0 0 20px; color: #FFFFFF">Pune-ti priceperea in slujba colegilor</h2>
 <p style="margin: 0 0 16px; font-size: 19px; color: #EEF2FD">Fiecare dintre noi stie sa faca ceva bine. Spune-ne cum ne poti ajuta si te chemam cand e nevoie de tine.</p>
 <p style="margin: 0 0 28px; color: #DCE6FB">Nu trebuie sa fii membru in conducere si nici sa ai mult timp liber. Cateva ore pe an, la momentul potrivit, pot schimba rezultatul unei negocieri, al unei campanii sau al unui proiect.</p>
@@ -633,7 +635,7 @@ nav[aria-label="Navigare principala"]{gap:8px 16px !important;font-size:14px !im
 <li style="display: flex; gap: 14px; align-items: flex-start"><span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #C3B1F5; color: #03037D; font-weight: 700; display: flex; align-items: center; justify-content: center">2</span><span><strong>Iti notam competentele</strong> si cat timp ai la dispozitie.</span></li>
 <li style="display: flex; gap: 14px; align-items: flex-start"><span style="flex: none; width: 32px; height: 32px; border-radius: 50%; background: #C3B1F5; color: #03037D; font-weight: 700; display: flex; align-items: center; justify-content: center">3</span><span><strong>Te contactam</strong> doar atunci cand o actiune are nevoie de ce stii tu sa faci.</span></li>
 </ol>
-<a class="btn" href="https://forms.gle/EqSAXpEHJSEcxMKXA" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 48px; box-sizing: border-box; background: #C8102E; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; padding: 14px 32px; border-radius: 999px">Vreau sa ajut</a>
+<a class="btn" href="https://forms.gle/EqSAXpEHJSEcxMKXA" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; min-height: 48px; box-sizing: border-box; background: #C8102E; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; padding: 14px 32px; border-radius: 999px">Intra in echipa &rarr;</a>
 <p style="margin: 18px 0 0; font-size: 14px; color: #DCE6FB">Datele trimise sunt folosite doar pentru a te contacta in legatura cu actiunile sindicatului, conform <a href="confidentialitate.html" style="color: #FFFFFF">Politicii de confidentialitate</a>.</p>
 </div>
 <div style="flex: 1 1 380px; min-width: 0; background: rgba(3,3,125,.35); border-radius: 20px; padding: 32px">
